@@ -47,10 +47,94 @@ int val = myList[1];
 // 1003 : Tio
 // ------------------------------------
 ```
+```cs
+  // ConcurrentBag 클래스
+  // 멀티쓰레딩 환경에서 리스트를 보다 간편하게 사용할 수 있는 새로운 클래스
+  // 리스트와 비슷하게 객체들의 컬렉션을 저장하는데, 리스트와는 달리 입력 순서를 보장하지는 않는다. 
+  // 데이터 저장은 add로 읽기는 foreach문 혹은 trypeek(), trytake() 메서드를 사용함
+  
+using System;
+using System.Collections;
+using System.Collections.Concurrent; // ConcurrentBag
+using System.Threading;
+using System.Threading.Tasks;
 
+namespace ConcurrentApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var bag = new ConcurrentBag<int>();
 
+            // 데이타를 Bag에 넣는 쓰레드
+            Task t1 = Task.Factory.StartNew(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    bag.Add(i);
+                    Thread.Sleep(100);
+                }
+            });
 
+            // Bag에서 데이타를 읽는 쓰레드
+            Task t2 = Task.Factory.StartNew(() =>
+            {
+                int n = 1;               
+                // Bag 데이타 내용을 10번 출력함
+                while (n <= 10)
+                {                    
+                    Console.WriteLine("{0} iteration", n);
+                    int count = 0;
 
+                    // Bag에서 데이타 읽기
+                    foreach (int i in bag)
+                    {
+                        Console.WriteLine(i);
+                        count++;
+                    }
+                    Console.WriteLine("Count={0}", count);
+
+                    Thread.Sleep(1000);
+                    n++;
+                }
+            });
+
+            // 두 쓰레드가 끝날 때까지 대기
+            Task.WaitAll(t1, t2);
+        }
+    }
+}
+```
+
+* 링크드리스트
+> 링크드 리스트는 데이터를 포함하는 노드들을 연결하여 컬렉션을 만든 자료 구조로서 각 노드는 데이터와 다음/이전 링크 포인터를 갖게 된다. 단일 연결 리스트는 노드를 다음 링크로만 연결한 리스트이고 이중 연결 리스트는 각 노드를 다음 링크와 이전 일ㅇ크 모두 연결한 리스트이다. 
+
+```cs
+  LinkedList<string> list = new LinkedList<string>();
+  list.AddLast("A");
+  list.AddLast("B");
+  list.AddLast("C");
+  
+  LinkedListNode<string> node = list.Find("B");
+  LinkedListNode<string> newNode = new LinkedListNode<string>("C");
+  
+  list.AddAfter(node, newNode);
+
+```
+
+* Queue
+  > FIFO 자료구조 형식
+```cs
+  Queue<int> q = new Queue<int>();
+  q.Enqueue(10);
+  q.Enqueue(20);
+  q.Enqueue(30);
+  
+  int next = q.Dequeue();
+  next = q.Dequeue();
+  
+```
 
 
 
