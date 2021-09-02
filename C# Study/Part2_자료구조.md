@@ -29,7 +29,7 @@ myList.Add(30);
 int val = myList[1];
 ```
 
-``cs
+```cs
   // Sorted List는 Key 값으로 value를 찾는 Map ADT 타입을 내부적으로 배열을 이용해 구현한 클래스이다. 
   SortedList<int, string> list = new SortedList<int, string>();
   list.Add(1001, "Tim");
