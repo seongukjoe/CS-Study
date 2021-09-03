@@ -157,5 +157,51 @@ class Program
 > * value 키워드는 set 접근자가 할당하는 값을 정의
 > 
 
+## C# static 메서드
+> 정적(static) 메서드는 인스턴스 메서드와는 달리 클래스로부터 객체를 생성하지 않고 직접 [클래스명, 메서드명] 형식으로 호출하는 메서드이다. 
+> static 메서드는 인스턴스 객체로부터 호출될 수 없으며, 반드시 클래스명과 함께 사용된다. 
+
+```cs
+public class MyClass
+{
+    private int val = 1;
+    // Instance Method
+    public int InstRun()
+    {
+        return val;
+    }
+    
+    // Static Method
+    public static int Run()
+    {
+        return 1;
+    }
+}
+
+public class Client
+{
+    public void Test()
+    {
+        // Call Instance Method
+        MyClass myClass = new MyClass();
+        int i = myClass.InstRun();
+        
+        // Call Static Method
+        int j = MyClass.Run();
+    }
+}
+```
+### Static 속성, 필드
+> Static 필드의 경우 Non-Static 필드들은 클래스 인스턴스를 생성할 때마다 메모리에 매번 새로 생성되게 되는 반면, static 필드는 프로그램 실행 후 해당 클래스가 처음으로 사용될 때 한번 초기화되어 계속 동일한 메모리를 사용하게 된다. 
+
+
+
+
+
+
+
+
+
+
 
 
