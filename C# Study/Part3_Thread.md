@@ -63,8 +63,56 @@ public class Example
 // ------------------------------------------------------
 
 ```
+## Thread 예제
+> Thread 클래스의 생성자가 받아들이는 파라미터는 ThreadStart 대리자와 ParameterizedThreadStart 대리자가 있는데, 이 섹션은 파라미터를 직접 전달하지 않는 메서들에 사용하는 ThreadStart 델리게이트 사용 예제를 쓴다. ThreadStart 대리자는 public delegate void ThreadStart()와 같이 정의가 되어 리턴과 파라미터 모두 void임을 알 수 있듯이, 리턴과 파라미터가 없는 메서드는 대리자의 객체로 생성될 수 있다. 
+```cs
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Run 메서드를 입력받아 ThreadStart 대리자 타입 생성 후 Thread 클래스에 전달
+        Thread t1 = new Thread(new ThreadStart(Run));
+        t1.Start();
+        
+        // 컴파일러가 Run() 메서드의 함수 프로토타입으로부터 ThreadStart 대리자 객체를 추론하여 생성
+        Thread t2 = enw Thread(Run);
+        t2.Start();
+        
+        // 익명 메서드를 사용하여 생성
+        Thread t3 = new Thread(delegate(){Run();});
+        t3.Start();
+        
+        // 람다식 활용
+        Thread t4 = new Thread(() => Run());
+        t4.Start();
+        
+        // 간략한 표현
+        new Thread()) => Run()).Start();
+        }
+        static void Run(){....}
+   }
+}
+```
+> **다른 클래스 메서드** \
+> 동일 클래스가 아닌 다른 클래스의 메서드를 쓰레드에 호출하기 위해서는 해당 클래스의 객체를 생성한 후, 그 객체의 메서드를 대리자로 쓰레드에 전달하면 된다.
+```cs
+class Diff
+{
+    public void Run(){.....}
+}
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Diff 클래스의 Run 호출
+        Diff obj = new Diff();
+        Thread t = new Thread(obj.Run);
+        t.start();
+    }``````````````````````````````````````
+}
 
+```
 
 
 
