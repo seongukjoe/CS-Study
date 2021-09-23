@@ -38,7 +38,8 @@
 > 
 
 **Main UI - Auto - 동작 제어 버튼**
-> 장비 Auto 동작 제어
+> 장비의 Auto 모드에서의 동작을 제어한다.
+>  
 > Initial: 모터 원점 동작 버튼
 > Start: Auto 작업 시작 버튼
 > Stop: Auto 작업 정지 버튼
@@ -48,13 +49,18 @@
 > Task Log: Log를 확인할 수 있는 창 팝업 버튼
 
 **Main UI - Auto - Index Layout**
-> 총 새산량, Ok Count, NG Count, Reset 버튼으로 초기화
-> Index Zone의 작업 상태 표시, 황색: 작업중, 녹색: 작업완료, 적색: NG
+> 총 생산량, Ok Count, NG Count을 보여주며 Reset 버튼으로 초기화할 수 있다.
 > 
-> 중앙의 녹색 번호는 VCM Load 부분의 현재 Index 번호
+> Index Zone의 작업 상태 표시는 다음과 같은 색깔로 표현된다.
 > 
+> 황색: 작업중, 녹색: 작업완료, 적색: NG
+> 
+> 중앙의 녹색 번호는 VCM Load 부분의 현재 Index 번호를 의미한다.
+
+
 **Main UI - Recipe(General) - LensHeight Option**
-> LensHeight 측정 결과로 OK/NG 판정 선택 가능
+> LensHeight 측정 결과로 OK/NG 판정 선택 가능하다.
+> 
 > 1. Lens Height: Lens 바닥에서 Lens Height 측정 센서의 Tool이 Lens에 닿는 위치까지의 실측 높이
 > 
 > 2. Allow Min/Max: 측정 판정 최소/최대 값 설정 파라미터
@@ -74,7 +80,9 @@
 > 간단히 설명하면, 각 장비들의 위치와 조건을 잡아주는 작업으로 VCM Loader, Lens Picker와 같은 장비들의 Tray 개수, Delay Time, Ready Position, Stage Position, Offset과 같은 값을 설정한다. 
 > 각각의 장비들은 화살표를 클릭하여 제어하며, Jog 모드는 연속적인 움직임으로 Speed Control을 통해 속도를 제어한다. Relative 모드는 클릭마다 움직이며 움직일 거리를 입력하여 제어한다. 
 
+
 ![OIS_UI_2](./img/OIS_UI_2.JPG)
+
 **Vision UI - Auto**
  * VCM TOP VISION: VCM TOP VISION (Lens Place를 위한 VCM Vision) Live/Grab 이미지
  * LENS UPPER: Lens Upper (Lens Pick을 위한 상부 카메라) Live/Grab 이미지
