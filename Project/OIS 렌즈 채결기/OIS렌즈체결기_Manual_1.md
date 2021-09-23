@@ -74,7 +74,16 @@
 > 각각의 장비들은 화살표를 클릭하여 제어하며, Jog 모드는 연속적인 움직임으로 Speed Control을 통해 속도를 제어한다. Relative 모드는 클릭마다 움직이며 움직일 거리를 입력하여 제어한다. 
 
 ![OIS_UI_2](./img/OIS_UI_2.JPG)
+**Vision UI - Auto**
+ * VCM TOP VISION: VCM TOP VISION (Lens Place를 위한 VCM Vision) Live/Grab 이미지
+ * LENS UPPER: Lens Upper (Lens Pick을 위한 상부 카메라) Live/Grab 이미지
+ * LENS UNDER: Lens Under (Lens Pick 후 Place를 위해 Picker 하부 확인을 위한 하부 카메라) Live/Grab 이미지
+ * POINT #1: POINT #1 (Bonder #1 Jetting Position 확인을 위한 Bonder #1 카메라) Live/Grab 이미지
+ * POINT #2: POINT #2 (Bonder #2 Jetting Position 확인을 위한 Bonder #2 카메라) Live/Grab 이미지
+ * EXIST(Vision Inspect): Exist(Jetting 후 Jetting 유/무 판단 확인을 위한 Inspect 카메라) Live/Grab 이미지
 
+
+ 
 
 
 
