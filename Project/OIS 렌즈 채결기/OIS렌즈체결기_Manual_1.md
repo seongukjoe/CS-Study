@@ -137,7 +137,7 @@
 
 **VCM Vision**
 > Jig Pocket에서 VCM 틀어짐 상태를 측정하는 Unit으로 Servo Motor(Lens Insert Top Vision Axis)와 Camera(VCM Vision 10M)으로 구성된다.
-> Unit의 동작은 VCM Vision 츠겆ㅇ 후 Ready 위치에서 대기하며 VCM의 역삽입 확인이 가능하다. 
+> Unit의 동작은 VCM Vision 측정 후 Ready 위치에서 대기하며 VCM의 역삽입 확인이 가능하다. 
 
 
 ![OIS_Lens_Height_1](./img/OIS_Vision_2.JPG)
@@ -150,6 +150,35 @@
 > 
 
 ![OIS_Bonder_1](./img/OIS_Bonder_1.JPG)
+
+**Bonding**
+> Lens Insert 후 정상 체결된 자재에 Epoxy 도포하는 Unit
+> Unit의 구성은 Servo Motor(X, Y, Z Axis), Camera(Bonding# Vision 10M), Tip Clean Unit(Sponge, Cylinder)으로 구성되며 동작은 다음과 같다.
+> 1) Vision으로 자재 Epoxy 도포 위치 보정 후 Recipe 입력된 패턴을 토대로 Epoxy 도포
+> 2) 정해진 횟수 사용 후 Dummy 토출 또는 Tip Clean 동작 설정 가능
+
+
+![OIS_INSPECT_1](./img/OIS_Vision_3.JPG)
+
+**Vision Inspect**
+> Epoxy 도포 유무 검사하는 Unit으로 Manual Stage와 Camera(Vision Inspect 5M)으로 구성된다.
+> 
+
+
+![OIS_UV_1](./img/OIS_UV_1.JPG)
+
+**UV Curing**
+> Actuating 후 UV 경화하는 Unit
+> Unit의 구성은 Manual Stage(UV unitL; X Y Z Axis, Actuator Unit; X Y Z Axis), UV Lamp(HOYA EXECURE4000), Cylinder(UV Unit; Z Axis, Actuator Unit; Y Axis), Actuator(K-Star CH1)으로 구성된다.
+
+
+![OIS_SideAngle_1](./img/OIS_SideAngle_1.JPG)
+
+**Side Angle Measure**
+> Index에서 VCM Pickup 후 Side Angle Jig에 Place 및 Side Angle 측정하는 Unit
+> Unit의 구성은 Sensor(Keyence LJ-X8060), Cylinder(Actuator Unit; Y axis, Unloader Unit; Y axis), Clamp(VCM Fixing Clamp)), Actuator(K-Star CH2), Servo Motor(Y Axis)으로 구성된다.
+
+
 
 
 
