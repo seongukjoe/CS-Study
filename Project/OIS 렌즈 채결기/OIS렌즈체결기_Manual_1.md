@@ -3,4 +3,4 @@
 > 본 문서에서는 OIS 렌즈채결기의 개괄적인 기구 구성, 장비의 동작, SETUP 방식 그리고 실제 동작에 있어서 유용한 부분을 다룰 것이다. 
 
 ### OIS 렌즈체결기 구성
-![OIS_Lens_1](./img/OIS_Lens_1.JPG)
+![OIS_Lens_1](./img/OIS_Lens_1.jpg)
