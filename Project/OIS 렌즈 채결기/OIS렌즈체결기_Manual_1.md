@@ -66,6 +66,11 @@
 **Main UI - Recipe(General) - Dispenser Option**
 > USE IDLE #1, #2: Bonder Unit을 장시간 사용하지 않을 때 사용 ***AUTO 동작 실행 시 사용금지***
 > 
+**Main UI - TEACH**
+> 이 후의 내용에서 심도있게 다룰 것
+> 간단히 설명하면, 각 장비들의 위치와 조건을 잡아주는 작업으로 VCM Loader, Lens Picker와 같은 장비들의 Tray 개수, Delay Time, Ready Position, Stage Position, Offset과 같은 값을 설정한다. 
+> 각각의 장비들은 화살표를 클릭하여 제어하며, Jog 모드는 연속적인 움직임으로 Speed Control을 통해 속도를 제어한다. Relative 모드는 클릭마다 움직이며 움직일 거리를 입력하여 제어한다. 
+
 
 
 
