@@ -19,6 +19,7 @@
 
 **Main UI - Auto - Interface**
 > 컨트롤러의 연결 상태를 표시함.
+> 
 > MC: Main 전원 연결 상태 표시
 > 
 > Main Air: Main 공압 연결 상태 표시
