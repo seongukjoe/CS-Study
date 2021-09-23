@@ -15,7 +15,8 @@
 ### Main, Vision UI 주요 내용
 > GUI의 모든 버튼의 내용을 설명하는 것이 아닌 주요하도 여겨지는 부분을 골라 내용 정리
 
-![OIS_UI_1](./img/OIS_UI_1.jpeg)
+![OIS_UI_1](./img/OIS_UI_1.JPG)
+
 **Main UI - Auto - Interface**
 > 컨트롤러의 연결 상태를 표시함.
 > MC: Main 전원 연결 상태 표시
@@ -72,7 +73,7 @@
 > 간단히 설명하면, 각 장비들의 위치와 조건을 잡아주는 작업으로 VCM Loader, Lens Picker와 같은 장비들의 Tray 개수, Delay Time, Ready Position, Stage Position, Offset과 같은 값을 설정한다. 
 > 각각의 장비들은 화살표를 클릭하여 제어하며, Jog 모드는 연속적인 움직임으로 Speed Control을 통해 속도를 제어한다. Relative 모드는 클릭마다 움직이며 움직일 거리를 입력하여 제어한다. 
 
-![OIS_UI_2](./img/OIS_UI_2.jpeg)
+![OIS_UI_2](./img/OIS_UI_2.JPG)
 
 
 
