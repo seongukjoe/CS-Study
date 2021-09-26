@@ -41,8 +41,11 @@
 > 장비의 Auto 모드에서의 동작을 제어한다.
 >  
 > Initial: 모터 원점 동작 버튼
+> 
 > Start: Auto 작업 시작 버튼
+> 
 > Stop: Auto 작업 정지 버튼
+> 
 > Lot End: 현재 Index에 올려진 자재만을 작업하는 경우 사용. VCM은 더 이상 투입하지 않고 Index에 들어가 있는 자재들만 작업한다.
 > Auto 동작 중에 LOT END 버튼을 누르면 VCM Picker Unit은 멈추고 나머지 Unit은 작업을 합니다. 
 > 
@@ -189,8 +192,12 @@
 
 
 
-
-
+## Teach - 정리 이전에 주요 메모
+### Bonding
+> Bonder # Touch Position - 노즐이 터치센서에 위치하도록 설정하지만, 터치 센서에 직접 닿지 않게 해야한다. 터치 센서의 위치보다 약 3mm 정도 높게 설정한다.
+> 
+> Bonder # Touch Limit Z - 노즐의 터치 센서으로의 이동에 거리를 제한한다.
+> 
 
  
 
