@@ -1,12 +1,16 @@
-## OIS 렌즈채결기 메뉴얼
-### 개요
+# OIS 렌즈채결기 메뉴얼
+## 개요
 > 본 문서에서는 OIS 렌즈채결기의 개괄적인 기구 구성, 장비의 동작, SETUP 방식 그리고 실제 동작에 있어서 유용한 부분을 다룰 것이다. 
 
-### 목차
+## 목차
 
-[1.OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+[2. Main, Vision UI 주요 내용](#Main,-Vision-UI-주요-내용)
+[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
 
-### OIS 렌즈체결기 구성
+## OIS 렌즈체결기 구성
 ![OIS_Lens_1](./img/OIS_Lens_1.jpg)
 
 > OIS 렌즈채결기는 VCM에 렌즈를 조립, 본딩, UV 경화, 면각도 측정하는 장비로, Index Table과 총 31축의 제어 축이 사용되는 설비이다. 
@@ -16,7 +20,7 @@
 * 모든 Unit의 작업 종료 후에 Index 회전
 * 위의 과정 반복 시행, 자재 소진시 트레이 교환
 
-### Main, Vision UI 주요 내용
+## Main, Vision UI 주요 내용
 > 이 부분에서는 UI의 모든 기능적 요소를 설명하는 것이 아닌 주요하게 여겨지는 부분을 중점으로 설명
 
 ![OIS_UI_1](./img/OIS_UI_1.JPG)
@@ -98,7 +102,7 @@
  * POINT #2: POINT #2 (Bonder #2 Jetting Position 확인을 위한 Bonder #2 카메라) Live/Grab 이미지
  * EXIST(Vision Inspect): Exist(Jetting 후 Jetting 유/무 판단 확인을 위한 Inspect 카메라) Live/Grab 이미지
 
-### OIS 렌즈채결기 주요 Unit 소개
+## OIS 렌즈채결기 주요 Unit 소개
 ![OIS_VCM_LOADER_1](./img/OIS_Load_1.JPG)
 
 **VCM Loading**
