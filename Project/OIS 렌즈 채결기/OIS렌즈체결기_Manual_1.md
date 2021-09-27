@@ -114,7 +114,7 @@
 > 1) Transfer X Axis(Transfer Magazine Position X) 이동하여  VCM Magazine에서 VCM Tray Clamping
 > 2) Transfer X Axis(Transfer Stage Position X) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
 > 3) Stage Y Axis(Stage First Pick Position Y) 이동하여 첫 번째 작업 위치로 이동
-
+---
 
 ![OIS_VCM_UNLOADER_1](./img/OIS_Load_2.JPG)
 
@@ -125,6 +125,7 @@
 > 1) Transfer X Axis(Transfer Magazine Position X) 이동하여 Unload Magazine에서 Unload Tray Clamping
 > 2) Transfer X Axis(Transfer Stage Position X) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
 > 3) Stage Y Axis(Stage First Place Position Y) 이동하여 첫 번째 작업 위치로 이동
+---
 
 
 ![OIS_LENS_LOADER_1](./img/OIS_Load_3.JPG)
@@ -136,7 +137,7 @@
 > 1) Transfer Y Axis(Transfer Magazine Position Y) 이동하여 Lens Magazine에서 Lens Tray Clamping
 > 2) Transfer Y Axis(Transfer Stage Position Y) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
 > 3) Stage X Axis(Stage First Place Position X) 이동하여 첫 번째 작업 위치로 이동
-> 
+---
 
 ![OIS_VCM_PICKER_1](./img/OIS_Pick_1.JPG)
 
@@ -147,7 +148,7 @@
 > 1) VCM Pickup 후 위치 이동 및 Theta 보정
 > 2) Z축 Down 및 Clamping 동작으로 위치 보정
 > 3) Index에 Place
-> 
+---
 
 ![OIS_LENS_PICKER_1](./img/OIS_Pick_2.JPG)
 
@@ -158,7 +159,7 @@
 > 1) Lens Tray에 Lens의 유무 확인 또는 Pickup을 위한 위치 보정값 측정 후 Theta 보정하여 Lens Pickup
 > 2) Bottom Vision으로 Lens Insert 보정값 측저 및 VCM Vision 측정값과 연산하여 VCM에 Lens Insert
 > 3) Lens Insert 시 설정된 Torque값보다 큰 값이 걸리면 Lens Vacuum 해제 및 Z축 상승
-
+---
 
 ![OIS_VCM_VISION_1](./img/OIS_Vision_1.JPG)
 
@@ -166,6 +167,7 @@
 > Jig Pocket에서 VCM 틀어짐 상태를 측정하는 Unit으로 Servo Motor(Lens Insert Top Vision Axis)와 Camera(VCM Vision 10M)으로 구성된다.
 > Unit의 동작은 VCM Vision 측정 후 Ready 위치에서 대기하며 VCM의 역삽입 확인이 가능하다. 
 
+---
 
 ![OIS_Lens_Height_1](./img/OIS_Vision_2.JPG)
 
@@ -176,6 +178,7 @@
 > 1) Insert 한 Lens의 높이를 측정하여 다음 공정 작업 가능 유무를 판단
 > 2) Jig Pocket 교체 후 각 Index 별 높이 측정 및 Recipe 입력
 > 
+---
 
 ![OIS_Bonder_1](./img/OIS_Bonder_1.JPG)
 
@@ -185,6 +188,7 @@
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Camera(Bonding# Vision 10M), Tip Clean Unit(Sponge, Cylinder)으로 구성되며 동작은 다음과 같다.
 > 1) Vision으로 자재 Epoxy 도포 위치 보정 후 Recipe 입력된 패턴을 토대로 Epoxy 도포
 > 2) 정해진 횟수 사용 후 Dummy 토출 또는 Tip Clean 동작 설정 가능
+---
 
 
 ![OIS_INSPECT_1](./img/OIS_Vision_3.JPG)
@@ -192,6 +196,7 @@
 **Vision Inspect**
 > Epoxy 도포 유무 검사하는 Unit으로 Manual Stage와 Camera(Vision Inspect 5M)으로 구성된다.
 > 
+---
 
 
 ![OIS_UV_1](./img/OIS_UV_1.JPG)
@@ -200,6 +205,7 @@
 > Actuating 후 UV 경화하는 Unit
 > 
 > Unit의 구성은 Manual Stage(UV unitL; X Y Z Axis, Actuator Unit; X Y Z Axis), UV Lamp(HOYA EXECURE4000), Cylinder(UV Unit; Z Axis, Actuator Unit; Y Axis), Actuator(K-Star CH1)으로 구성된다.
+---
 
 
 ![OIS_SideAngle_1](./img/OIS_SideAngle_1.JPG)
@@ -208,6 +214,7 @@
 > Index에서 VCM Pickup 후 Side Angle Jig에 Place 및 Side Angle 측정하는 Unit
 > 
 > Unit의 구성은 Sensor(Keyence LJ-X8060), Cylinder(Actuator Unit; Y axis, Unloader Unit; Y axis), Clamp(VCM Fixing Clamp)), Actuator(K-Star CH2), Servo Motor(Y Axis)으로 구성된다.
+---
 
 ## 이후에 정리될 내용 개괄
 * 가능한 실제 장비 제어와 운용 관련한 내용 포함
