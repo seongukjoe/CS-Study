@@ -13,7 +13,7 @@
 
 
 ## OIS 렌즈체결기 구성
-![OIS_Lens_1](./img/OIS_Lens_1.jpg) {: width="10" height="10"}
+![OIS_Lens_1](./img/OIS_Lens_1.jpg){: width="10" height="10"}
 
 > OIS 렌즈채결기는 VCM에 렌즈를 조립, 본딩, UV 경화, 면각도 측정하는 장비로, Index Table과 총 31축의 제어 축이 사용되는 설비이다. 
 > 장비의 대략적인 구동은 다음과 같이 이루어진다.
