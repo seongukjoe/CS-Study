@@ -109,6 +109,7 @@
 
 **VCM Loading**
 > VCM Magazine에서 VCM Tray를 Clamping 하여 VCM Pickup 위치로 옮겨주는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Clamp으로 구성되며 동작은 다음과 같이 한다.
 > 1) Transfer X Axis(Transfer Magazine Position X) 이동하여  VCM Magazine에서 VCM Tray Clamping
 > 2) Transfer X Axis(Transfer Stage Position X) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
@@ -119,6 +120,7 @@
 
 **VCM Unloading**
 > Unload Magazine에서 Unload Tray를 Clamping하여 VCM Place 위치로 옮겨주는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Clamp, Dummy Tray으로 구성되며 동작은 다음과 같다.
 > 1) Transfer X Axis(Transfer Magazine Position X) 이동하여 Unload Magazine에서 Unload Tray Clamping
 > 2) Transfer X Axis(Transfer Stage Position X) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
@@ -129,6 +131,7 @@
 
 **Lens Loading**
 > lens Magazine에서 Lens Tray를 Clamping 하여 Lens Pickup 위치로 옮겨주는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Clamp(Transfer, Stage)으로 구성되며 동작은 다음과 같다.
 > 1) Transfer Y Axis(Transfer Magazine Position Y) 이동하여 Lens Magazine에서 Lens Tray Clamping
 > 2) Transfer Y Axis(Transfer Stage Position Y) 이동하여 Stage Clamp 고정 및 Transfer Clamp 해제
@@ -139,6 +142,7 @@
 
 **VCM Picker**
 > VCM Tray에서 VCM을 Pickup하여 Index 위에서 Clamping 후 Place하는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Step Motor(T Axis), Clamp(Loading Align Clamp)으로 구성되며 동작은 다음과 같다.
 > 1) VCM Pickup 후 위치 이동 및 Theta 보정
 > 2) Z축 Down 및 Clamping 동작으로 위치 보정
@@ -149,6 +153,7 @@
 
 **Lens Picker**
 > Lens Tray에서 Vision 인식 후 Lens를 Pickup 하여, Bottom Vision 위치 보정값과 VCM Vision 보정값을 연산하여 Index의 VCM에 Lens를 체결하는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y Axis), Linear Motor(Z, T Axis), Camera(Lens Top Vision 10M, Lens Bottom Vision 10M)으로 구성되며 동작은 다음과 같다.
 > 1) Lens Tray에 Lens의 유무 확인 또는 Pickup을 위한 위치 보정값 측정 후 Theta 보정하여 Lens Pickup
 > 2) Bottom Vision으로 Lens Insert 보정값 측저 및 VCM Vision 측정값과 연산하여 VCM에 Lens Insert
@@ -166,6 +171,7 @@
 
 **Lens Height Measure**
 > Lens Insert 높이 측정 Unit
+> 
 > Unit의 구성은 Sensor(Keyence GT2, Display 앰프), Manual Stage(X, Y Axis), Cylinder(Z Axis)으로 구성되며 동작은 다음과 같다.
 > 1) Insert 한 Lens의 높이를 측정하여 다음 공정 작업 가능 유무를 판단
 > 2) Jig Pocket 교체 후 각 Index 별 높이 측정 및 Recipe 입력
@@ -175,6 +181,7 @@
 
 **Bonding**
 > Lens Insert 후 정상 체결된 자재에 Epoxy 도포하는 Unit
+> 
 > Unit의 구성은 Servo Motor(X, Y, Z Axis), Camera(Bonding# Vision 10M), Tip Clean Unit(Sponge, Cylinder)으로 구성되며 동작은 다음과 같다.
 > 1) Vision으로 자재 Epoxy 도포 위치 보정 후 Recipe 입력된 패턴을 토대로 Epoxy 도포
 > 2) 정해진 횟수 사용 후 Dummy 토출 또는 Tip Clean 동작 설정 가능
@@ -191,6 +198,7 @@
 
 **UV Curing**
 > Actuating 후 UV 경화하는 Unit
+> 
 > Unit의 구성은 Manual Stage(UV unitL; X Y Z Axis, Actuator Unit; X Y Z Axis), UV Lamp(HOYA EXECURE4000), Cylinder(UV Unit; Z Axis, Actuator Unit; Y Axis), Actuator(K-Star CH1)으로 구성된다.
 
 
@@ -198,6 +206,7 @@
 
 **Side Angle Measure**
 > Index에서 VCM Pickup 후 Side Angle Jig에 Place 및 Side Angle 측정하는 Unit
+> 
 > Unit의 구성은 Sensor(Keyence LJ-X8060), Cylinder(Actuator Unit; Y axis, Unloader Unit; Y axis), Clamp(VCM Fixing Clamp)), Actuator(K-Star CH2), Servo Motor(Y Axis)으로 구성된다.
 
 ## 이후에 정리될 내용 개괄
