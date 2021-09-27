@@ -5,10 +5,12 @@
 ## 목차
 
 [1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+
 [2. Main, Vision UI 주요 내용](#Main,-Vision-UI-주요-내용)
-[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
-[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
-[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)
+
+[3. OIS 렌즈채결기 주요 Unit 소개](#OIS-렌즈채결기-주요-Unit-소개)
+
+
 
 ## OIS 렌즈체결기 구성
 ![OIS_Lens_1](./img/OIS_Lens_1.jpg)
