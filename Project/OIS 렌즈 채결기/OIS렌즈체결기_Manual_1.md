@@ -6,7 +6,7 @@
 
 **[1. OIS 렌즈체결기 구성](#OIS-렌즈체결기-구성)**
 
-**[2. Main, Vision UI 주요 내용](#Main,-Vision-UI-주요-내용)**
+**[2. Main과 Vision UI 주요 내용](#Main과-Vision-UI-주요-내용)**
 
 **[3. OIS 렌즈채결기 주요 Unit 소개](#OIS-렌즈채결기-주요-Unit-소개)**
 
@@ -22,7 +22,7 @@
 * 모든 Unit의 작업 종료 후에 Index 회전
 * 위의 과정 반복 시행, 자재 소진시 트레이 교환
 
-## Main, Vision UI 주요 내용
+## Main과 Vision UI 주요 내용
 > 이 부분에서는 UI의 모든 기능적 요소를 설명하는 것이 아닌 주요하게 여겨지는 부분을 중점으로 설명
 
 ![OIS_UI_1](./img/OIS_UI_1.JPG)
