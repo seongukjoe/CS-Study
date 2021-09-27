@@ -190,6 +190,10 @@
 > Index에서 VCM Pickup 후 Side Angle Jig에 Place 및 Side Angle 측정하는 Unit
 > Unit의 구성은 Sensor(Keyence LJ-X8060), Cylinder(Actuator Unit; Y axis, Unloader Unit; Y axis), Clamp(VCM Fixing Clamp)), Actuator(K-Star CH2), Servo Motor(Y Axis)으로 구성된다.
 
+## 이후에 정리될 내용 개괄
+* 가능한 실제 장비 제어와 운용 관련한 내용 포함
+* 각 unit 별 teach 과정에서의 방식과 사용되는 주요 값들의 설정 및 제어 방식 정리
+* 실제 장비 제어 과정에서의 주요한 팁 
 
 
 ## Teach - 정리 이전에 주요 메모
