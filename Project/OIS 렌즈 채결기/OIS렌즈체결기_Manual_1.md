@@ -13,8 +13,7 @@
 
 
 ## OIS 렌즈체결기 구성
-![OIS_Lens_1](./img/OIS_Lens_1.jpg){: width="10" height="10"}
-
+<img src="./img/OIS_Lens_1.jpg" width="400" height="400"></center>
 > OIS 렌즈채결기는 VCM에 렌즈를 조립, 본딩, UV 경화, 면각도 측정하는 장비로, Index Table과 총 31축의 제어 축이 사용되는 설비이다. 
 > 장비의 대략적인 구동은 다음과 같이 이루어진다.
 * VCM, Lens, Unload Magazine 트레이 투입
@@ -25,12 +24,12 @@
 ## Main과 Vision UI 주요 내용
 > 이 부분에서는 UI의 모든 기능적 요소를 설명하는 것이 아닌 주요하게 여겨지는 부분을 중점으로 설명
 
-![OIS_UI_1](./img/OIS_UI_1.JPG)
-
+<img src="./img/OIS_UI_1.JPG" width="500" height="400"></center>
 ---
 
 **Main UI - Auto - Interface**
-![OIS_UI_Interface](./img/ui_interface.JPG)
+>
+<img src="./img/ui_interface.JPG" width="150" height="250"></center>
 > 컨트롤러의 연결 상태를 표시함.
 > 
 > MC: Main 전원 연결 상태 표시
@@ -53,7 +52,8 @@
 ---
 
 **Main UI - Auto - 동작 제어 버튼**
-![OIS_UI_Motion](./img/ui_motionbtn.JPG)
+
+<img src="./img/ui_motionbtn.JPG" width="400" height="100"></center>
 > 장비의 Auto 모드에서의 동작을 제어한다.
 >  
 > Initial: 모터 원점 동작 버튼
@@ -70,7 +70,8 @@
 ---
 
 **Main UI - Auto - Index Layout**
-![OIS_UI_Layout](./img/ui_layout.JPG)
+
+<img src="./img/ui_layout.JPG" width="400" height="400"></center>
 > 총 생산량, Ok Count, NG Count을 보여주며 Reset 버튼으로 초기화할 수 있다.
 > 
 > Index Zone의 작업 상태 표시는 다음과 같은 색깔로 표현된다.
@@ -82,6 +83,7 @@
 ---
 
 **Main UI - Recipe(General) - LensHeight Option**
+
 ![OIS_UI_LensHeight](./img/ui_lensheight.JPG)
 > LensHeight 측정 결과로 OK/NG 판정 선택 가능하다.
 > 
@@ -92,6 +94,7 @@
 ---
 
 **Main UI - Recipe(General) - Sequence Option**
+
 ![OIS_UI_Recipe_Sequence](./img/recipe_sequence.JPG)
 > USE JIG FLATNESSL: 수동으로 Jig 평탄도 측정 시 선택 ***Auto 모드로 실행 시 반드시 미선택***
 > 
@@ -100,6 +103,7 @@
 ---
 
 **Main UI - Recipe(General) - Dispenser Option**
+
 ![OIS_UI_Recipe_Dispenser](./img/recipe_dispenser.JPG)
 > USE IDLE #1, #2: Bonder Unit을 장시간 사용하지 않을 때 사용 ***AUTO 동작 실행 시 사용금지***
 
