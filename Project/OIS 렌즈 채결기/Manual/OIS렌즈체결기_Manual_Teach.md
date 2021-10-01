@@ -92,7 +92,7 @@
     - 초점 맞지 않는 경우 BONDER #1 CAMERA CENTER POSITION Z 세팅
 * POINT #1 VISION 티칭
 * 토출 높이 세팅
-    - SHILECAN과 노즐이 거의 닿을 정도의 높이로 세팅
+    - SHIELDCAN과 노즐이 거의 닿을 정도의 높이로 세팅
     - BONDER #1 JETTING POSITION Z, BONDER #1 SAMPLE POSITION Z에 동일하게 세팅
 * READY POSITION XYZ 버튼 누름
 * CALIBRATION
