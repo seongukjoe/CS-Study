@@ -13,4 +13,25 @@
 > REST를 준수하는 웹 서비스 API는 RESTful API라고 정의합니다.  
 > ASP.NET Core은 RESTful API이며 기본적으로 HTTPS를 사용하는 프레임워크로 다양한 장점을 가지고 있습니다.  
 
-....
+## ASP.NET 구성하기
+
+### 프로젝트 템플릿 구성 커맨드
+```cs
+// dotnet cli command
+dontnet new webapi --no-https
+// --no-https는 HTTPS 인증서 없이 실행되는 앱 개발로 로컬 개발작업을 단순하게 유지
+```
+
+> 이후에 다음과 같은 디렉토리가 생성된다.
+|이름| 설명|
+|-------|----------|
+|Controlles/ | HTTP 엔드포인트로 노출되는 공용 메서드가 있는 클래스를 포함.|
+|Program.cs | Main 메서트-앱의 관리 진입점 포함|
+|Startup.cs | 서비스 및 앱의 HTTP 요청 파이프라인 구성|
+|0000.csproj | 프로젝트 구성 메타데이터 포함|
+
+
+
+
+
+
