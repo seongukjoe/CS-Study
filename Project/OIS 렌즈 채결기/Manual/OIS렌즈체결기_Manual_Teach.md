@@ -15,6 +15,9 @@
 ## Unit 별 티칭 방법
 
 ### VCM Loading Unit 티칭
+<img src="./img/OIS_VCMOrder.JPG" width="500" height="400"></center>  
+**VCM 모듈 자재 투입 순서**  
+
 * VCM Picker Tool 교체
 * VCM Tray 1EA 투입
 * TEACH - VCM PICKER - HEAD XY - STAGE PICK POSITION XY 순서대로 진행
@@ -51,6 +54,9 @@
  * 최종 세팅 완료 후 SEMI AUTO로 작업 상태 확인  
 
 ### Lens Picker Unit 티칭
+<img src="./img/OIS_lensOrder.JPG" width="500" height="400"></center>  
+**Lens 투입 순서**  
+
 * VCM 자재만 놓고 VCM VISION 티칭
 * LENS PICKER TOOL 제거
 * TEACH - INDEX - OPTION - VCM VISION - READY POSITION 순서대로 진행
