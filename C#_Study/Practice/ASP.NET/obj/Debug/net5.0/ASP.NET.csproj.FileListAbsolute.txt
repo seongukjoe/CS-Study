@@ -1,0 +1,16 @@
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.exe
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.deps.json
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.runtimeconfig.json
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.runtimeconfig.dev.json
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.dll
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ref\ASP.NET.dll
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\bin\Debug\net5.0\ASP.NET.pdb
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.csproj.AssemblyReference.cache
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.AssemblyInfoInputs.cache
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.AssemblyInfo.cs
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.csproj.CoreCompileInputs.cache
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.dll
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ref\ASP.NET.dll
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.pdb
+C:\Users\swjo\Desktop\SEONGUK_CHO\gitFolder\CS-Study\C#_study\Practice\ASP.NET\obj\Debug\net5.0\ASP.NET.genruntimeconfig.cache
