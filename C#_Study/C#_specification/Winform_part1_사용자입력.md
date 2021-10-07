@@ -69,8 +69,32 @@ Keys.:ShiftKey
 
 #### 화면 좌표와 클라이언트 좌표 간의 변환
 > 일부 마우스 위치 정보는 클라이언트 좌표로 표시되고 일부 정보는 화면 좌표로 표시되므로 좌표계 간에 지점을 변환해야할 수 도 있습니다. Contorl 클래스에서 사용할 수 있는 PointToClient 및 PointToScreen 메서드를 사용하면 이를 쉽게 수행할 수 있습니다.  
-> 
 
+#### 표준 클릭 이벤트 동작
+> 마우스 클릭 이벤트의 발생 순서는 다음과 같습니다.  
+> **마우스 단추 한번 클릭에 대한 이벤트 순서**
+1. MouseDown 이벤트
+2. Click 이벤트
+3. MouseClick 이벤트
+4. MouseUp 이벤트  
+> **마우스 단추 두번 클릭에 대해 발생하는 이벤트 순서**
+1. MouseDown 이벤트
+2. Click 이벤트
+3. MouseClick 이벤트
+4. MouseUp 이벤트
+5. MouseDown 이벤트
+6. DoubleClick 이벤트 (해당 컨트롤의 StandardDoubleClick 스타일 비트가 true로 설정되었는지에 따라 달라질 수 있음.)  
+7. MouseDoubleClick 이벤트
+8. MouseUp 이벤트  
+
+#### 끌어서 놓기 이벤트
+
+| 마우스 이벤트 | Description |
+| --------- | ----------- |
+| DragEnter | 개체를 컨트롤의 범위로 끌어올 때 발생 |
+| DragOver | 마우스 포인터가 컨트롤의 범위 내에 있는 동안 개체를 끌 때 발생 |
+| DragDrop | 끌어서 놓기 작업이 완료될 때 발생 |
+| DragLeave | 컨트롤의 범위 밖으로 개체를 끌 때 발생 |
 
 
 
