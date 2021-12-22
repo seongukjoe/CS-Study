@@ -1,0 +1,16 @@
+[VCM_LOADER]
+ReadyPositionZ=-4390
+ReadyPositionY=0
+StagePositionY=22250
+MagazinePositionY=254563
+ReadyPositionX=0
+EjectPositionX=48790
+WorkPositionX=118180
+StageReadyPositionX=0
+StageEjectPositionX=34696
+StageWorkPositionX=36016
+InOutOffsetZ=0
+EjectPositionY=34670
+StageFirstPickPosition=4999
+StageFirstPickPositionY=34270
+StageMagazineChangePositionY=0

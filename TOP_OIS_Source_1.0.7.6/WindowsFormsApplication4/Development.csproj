@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{472090BF-16DE-4616-ACC5-A79794241943}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XModule</RootNamespace>
+    <AssemblyName>Sic_Run</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Notebook</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Notebook|AnyCPU'">
+    <OutputPath>..\..\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SIC_Logo3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;!Notebook</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Notebook|x86'">
+    <OutputPath>bin\x86\Notebook\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="freeLicence, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\freeLicence.dll</HintPath>
+    </Reference>
+    <Reference Include="GlassButton, Version=1.3.2.12831, Culture=neutral, PublicKeyToken=2e983e6e44d23a4f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GlassButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Owf.Controls.A1Panel, Version=1.0.6088.12830, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Owf.Controls.A1Panel.dll</HintPath>
+    </Reference>
+    <Reference Include="Owf.Controls.DigitalDisplayControl, Version=1.0.6088.12830, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Owf.Controls.DigitalDisplayControl.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Resource, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLL\Resource.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SevenSegment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLL\SevenSegment.dll</HintPath>
+    </Reference>
+    <Reference Include="SIC_COM, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLL\SIC_COM.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ToggleSwitch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="XModuleLibrary, Version=6.4.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLL\XModuleLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="XSmNet.Net_01_32">
+      <HintPath>..\..\DLL\XSmNet.Net_01_32.dll</HintPath>
+    </Reference>
+    <Reference Include="XValueNet">
+      <HintPath>..\..\DLL\XValueNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datas\ModuledData.cs" />
+    <Compile Include="Forms\FormEQinformation\FormEQInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEQinformation\FormEQInformation.Designer.cs">
+      <DependentUpon>FormEQInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryWarning.Designer.cs">
+      <DependentUpon>FormPageHistoryWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOperation\VerticalProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPM\FormDoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPM\FormDoor.Designer.cs">
+      <DependentUpon>FormDoor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPM\FormPagePM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPM\FormPagePM.designer.cs">
+      <DependentUpon>FormPagePM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormMenuConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormMenuConfig.designer.cs">
+      <DependentUpon>FormMenuConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigCylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigCylinder.designer.cs">
+      <DependentUpon>FormPageConfigCylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigAnalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigAnalog.designer.cs">
+      <DependentUpon>FormPageConfigAnalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigDigital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigDigital.designer.cs">
+      <DependentUpon>FormPageConfigDigital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigAnalogLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigAnalogLink.designer.cs">
+      <DependentUpon>FormPageConfigAnalogLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigDigitalLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigDigitalLink.designer.cs">
+      <DependentUpon>FormPageConfigDigitalLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigGeneral.Designer.cs">
+      <DependentUpon>FormPageConfigGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigLamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigLamp.designer.cs">
+      <DependentUpon>FormPageConfigLamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigMotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigMotion.designer.cs">
+      <DependentUpon>FormPageConfigMotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigSwitch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfig\FormPageConfigSwitch.designer.cs">
+      <DependentUpon>FormPageConfigSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormMenuHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormMenuHistory.Designer.cs">
+      <DependentUpon>FormMenuHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryAlarm.Designer.cs">
+      <DependentUpon>FormPageHistoryAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryData.Designer.cs">
+      <DependentUpon>FormPageHistoryData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryList.Designer.cs">
+      <DependentUpon>FormPageHistoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory\FormPageHistoryEvent.Designer.cs">
+      <DependentUpon>FormPageHistoryEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOperation\FormPageOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormOperation\FormPageOperation.Designer.cs">
+      <DependentUpon>FormPageOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOperation\FormTaskLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormOperation\FormTaskLog.Designer.cs">
+      <DependentUpon>FormTaskLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRecipe\CDraw.cs" />
+    <Compile Include="Forms\FormRecipe\FormMenuRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRecipe\FormMenuRecipe.Designer.cs">
+      <DependentUpon>FormMenuRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRecipe\FormPageRecipeProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRecipe\FormPageRecipeProject.Designer.cs">
+      <DependentUpon>FormPageRecipeProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBottom.Designer.cs">
+      <DependentUpon>FormBottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTitle.Designer.cs">
+      <DependentUpon>FormTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProgress.Designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUser\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUser\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUser\FormLoginChagePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUser\FormLoginChagePassword.Designer.cs">
+      <DependentUpon>FormLoginChagePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\0.FormMenuWorking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\0.FormMenuWorking.Designer.cs">
+      <DependentUpon>0.FormMenuWorking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\09.FormPageWorkingUnloaderPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\09.FormPageWorkingUnloaderPicker.Designer.cs">
+      <DependentUpon>09.FormPageWorkingUnloaderPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\08.FormPageWorkingUnloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\08.FormPageWorkingUnloader.Designer.cs">
+      <DependentUpon>08.FormPageWorkingUnloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\04.FormPageWorkingLensPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\04.FormPageWorkingLensPicker.Designer.cs">
+      <DependentUpon>04.FormPageWorkingLensPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\07.FormPageWorkingCuring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\07.FormPageWorkingCuring.Designer.cs">
+      <DependentUpon>07.FormPageWorkingCuring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\06.FormPageWorkingBonder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\06.FormPageWorkingBonder.Designer.cs">
+      <DependentUpon>06.FormPageWorkingBonder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\05.FormPageWorkingIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\05.FormPageWorkingIndex.Designer.cs">
+      <DependentUpon>05.FormPageWorkingIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\03.FormPageWorkingLensLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\03.FormPageWorkingLensLoader.Designer.cs">
+      <DependentUpon>03.FormPageWorkingLensLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\02.FormPageWorkingVCMPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\02.FormPageWorkingVCMPicker.Designer.cs">
+      <DependentUpon>02.FormPageWorkingVCMPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWorking\01.FormPageWorkingVCMLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWorking\01.FormPageWorkingVCMLoader.Designer.cs">
+      <DependentUpon>01.FormPageWorkingVCMLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="cDefine.cs" />
+    <Compile Include="cUtilLocal.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Running\18.RunningActuator3.cs" />
+    <Compile Include="Running\17.RunningVCMVision.cs" />
+    <Compile Include="Running\16.RunningIndex.cs" />
+    <Compile Include="Running\15.RunningCleanJig.cs" />
+    <Compile Include="Running\14.RunningUnloadPicker.cs" />
+    <Compile Include="Running\13.RunningUnloader.cs" />
+    <Compile Include="Running\12.RunningPlateAngle.cs" />
+    <Compile Include="Running\10.RunningCuring1.cs" />
+    <Compile Include="Running\11.RunningCuring2.cs" />
+    <Compile Include="Running\09.RunningVisionInspect.cs" />
+    <Compile Include="Running\08.RunningBonder2.cs" />
+    <Compile Include="Running\07.RunningBonder1.cs" />
+    <Compile Include="Running\06.RunningLensHeight.cs" />
+    <Compile Include="Running\05.RunningJigPlateAngle.cs" />
+    <Compile Include="Running\04.RunningLensPicker.cs" />
+    <Compile Include="Running\03.RunningLensLoader.cs" />
+    <Compile Include="Running\02.RunningVCMPicker.cs" />
+    <Compile Include="Running\01.RunningVCMLoader.cs" />
+    <Compile Include="Running\0.Running.cs" />
+    <Compile Include="Standard\FormTextEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Standard\FormTextEdit.designer.cs">
+      <DependentUpon>FormTextEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TactTime.cs" />
+    <Compile Include="Unit\CLogWrite.cs" />
+    <Compile Include="Unit\CMES.cs" />
+    <Compile Include="Unit\CNetLjX8000.cs" />
+    <Compile Include="Unit\Communication\ClientSocket.cs" />
+    <Compile Include="Unit\Communication\ComPort.cs" />
+    <Compile Include="Unit\CRsLjx8000.cs" />
+    <Compile Include="Unit\CTJVClass1.cs" />
+    <Compile Include="Unit\CTJVClass2.cs" />
+    <Compile Include="Unit\RMDLL2.cs" />
+    <Compile Include="Unit\RMDLL.cs" />
+    <Compile Include="Unit\Serial\DisplaceSensor\DisplaceSensor.cs" />
+    <Compile Include="Unit\Serial\LensHeight.cs" />
+    <Compile Include="Unit\Serial\SuperEcm3.cs" />
+    <Compile Include="Unit\Serial\PJS100.cs" />
+    <Compile Include="Unit\Vision\Vision.cs" />
+    <Compile Include="Working\01.WorkingOption.cs" />
+    <Compile Include="Working\0.Working.cs" />
+    <Compile Include="Working\02.WorkingDevice.cs" />
+    <Compile Include="Working\18.WorkingIndex.cs" />
+    <Compile Include="Working\17.WorkingCleanJig.cs" />
+    <Compile Include="Working\16.WorkingUnloadPicker.cs" />
+    <Compile Include="Working\15.WorkingUnloader.cs" />
+    <Compile Include="Working\14.WorkingPlateAngle.cs" />
+    <Compile Include="Working\13.WorkingCuring2.cs" />
+    <Compile Include="Working\12.WorkingCuring1.cs" />
+    <Compile Include="Working\11.WorkingVisionInsepect.cs" />
+    <Compile Include="Working\08.WorkingLensHeight.cs" />
+    <Compile Include="Working\10.WorkingBonder2.cs" />
+    <Compile Include="Working\09.WorkingBonder1.cs" />
+    <Compile Include="Working\07.WorkingJigPlateAngle.cs" />
+    <Compile Include="Working\06.WorkingLensPicker.cs" />
+    <Compile Include="Working\05.WorkingLensLoader.cs" />
+    <Compile Include="Working\04.WorkingVCMPicker.cs" />
+    <Compile Include="Working\03.WorkingVCMLoader.cs" />
+    <Compile Include="Working\00.WorkingProject.cs" />
+    <EmbeddedResource Include="Forms\FormConfig\FormMenuConfig.resx">
+      <DependentUpon>FormMenuConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigCylinder.resx">
+      <DependentUpon>FormPageConfigCylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigAnalog.resx">
+      <DependentUpon>FormPageConfigAnalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigDigital.resx">
+      <DependentUpon>FormPageConfigDigital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigAnalogLink.resx">
+      <DependentUpon>FormPageConfigAnalogLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigDigitalLink.resx">
+      <DependentUpon>FormPageConfigDigitalLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigGeneral.resx">
+      <DependentUpon>FormPageConfigGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigLamp.resx">
+      <DependentUpon>FormPageConfigLamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigMotion.resx">
+      <DependentUpon>FormPageConfigMotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfig\FormPageConfigSwitch.resx">
+      <DependentUpon>FormPageConfigSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEQinformation\FormEQInformation.resx">
+      <DependentUpon>FormEQInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormMenuHistory.resx">
+      <DependentUpon>FormMenuHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormPageHistoryAlarm.resx">
+      <DependentUpon>FormPageHistoryAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormPageHistoryData.resx">
+      <DependentUpon>FormPageHistoryData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormPageHistoryList.resx">
+      <DependentUpon>FormPageHistoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormPageHistoryEvent.resx">
+      <DependentUpon>FormPageHistoryEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory\FormPageHistoryWarning.resx">
+      <DependentUpon>FormPageHistoryWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOperation\FormPageOperation.resx">
+      <DependentUpon>FormPageOperation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOperation\FormTaskLog.resx">
+      <DependentUpon>FormTaskLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPM\FormDoor.resx">
+      <DependentUpon>FormDoor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPM\FormPagePM.resx">
+      <DependentUpon>FormPagePM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipe\FormMenuRecipe.resx">
+      <DependentUpon>FormMenuRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipe\FormPageRecipeProject.resx">
+      <DependentUpon>FormPageRecipeProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBottom.resx">
+      <DependentUpon>FormBottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTitle.resx">
+      <DependentUpon>FormTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUser\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUser\FormLoginChagePassword.resx">
+      <DependentUpon>FormLoginChagePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\0.FormMenuWorking.resx">
+      <DependentUpon>0.FormMenuWorking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\09.FormPageWorkingUnloaderPicker.resx">
+      <DependentUpon>09.FormPageWorkingUnloaderPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\08.FormPageWorkingUnloader.resx">
+      <DependentUpon>08.FormPageWorkingUnloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\04.FormPageWorkingLensPicker.resx">
+      <DependentUpon>04.FormPageWorkingLensPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\07.FormPageWorkingCuring.resx">
+      <DependentUpon>07.FormPageWorkingCuring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\06.FormPageWorkingBonder.resx">
+      <DependentUpon>06.FormPageWorkingBonder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\05.FormPageWorkingIndex.resx">
+      <DependentUpon>05.FormPageWorkingIndex.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\03.FormPageWorkingLensLoader.resx">
+      <DependentUpon>03.FormPageWorkingLensLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\02.FormPageWorkingVCMPicker.resx">
+      <DependentUpon>02.FormPageWorkingVCMPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWorking\01.FormPageWorkingVCMLoader.resx">
+      <DependentUpon>01.FormPageWorkingVCMLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standard\FormTextEdit.resx">
+      <DependentUpon>FormTextEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XSmNet_01_32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XValue_M40_01_32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Load.png" />
+    <None Include="Resources\Loadunit.png" />
+    <None Include="Resources\UpdownCYlinder.png" />
+    <None Include="Resources\robot.png" />
+    <None Include="Resources\pad.png" />
+    <None Include="Resources\ALIGNCAMERA.png" />
+    <None Include="Resources\INSSTAGE.png" />
+    <None Include="Resources\INSSTAGEA.png" />
+    <None Include="Resources\INS2.png" />
+    <None Include="Resources\TURN.png" />
+    <None Include="Resources\TURNMODULE.png" />
+    <None Include="Resources\ALIGNCAMERA1.png" />
+    <None Include="Resources\INS21.png" />
+    <None Include="Resources\INSSTAGE1.png" />
+    <None Include="Resources\INSSTAGEA1.png" />
+    <None Include="Resources\Load1.png" />
+    <None Include="Resources\Loadunit1.png" />
+    <None Include="Resources\pad1.png" />
+    <None Include="Resources\robot1.png" />
+    <None Include="Resources\TURN1.png" />
+    <None Include="Resources\TURNMODULE1.png" />
+    <None Include="Resources\UpdownCYlinder1.png" />
+    <None Include="Resources\INSX.png" />
+    <None Include="Resources\INSY.png" />
+    <None Include="Resources\OUTXSUTTLE.png" />
+    <None Include="Resources\XInSuttle.png" />
+    <None Include="Resources\ENC.png" />
+    <None Include="Resources\1.Main.png" />
+    <None Include="Resources\2.Main.png" />
+    <None Include="Resources\LensLoader.png" />
+    <None Include="Resources\LensPicker.png" />
+    <None Include="Resources\JigPlateAngle.png" />
+    <None Include="Resources\LensHeight.png" />
+    <None Include="Resources\CleanJig.png" />
+    <None Include="Resources\Bonder.png" />
+    <None Include="Resources\Curing.png" />
+    <None Include="Resources\Index.png" />
+    <None Include="Resources\Curing2.png" />
+    <None Include="Resources\jigplateimg.jpg" />
+    <Content Include="Resources\MAIN.png" />
+    <None Include="Resources\MAIN1.png" />
+    <None Include="Resources\PM.png" />
+    <None Include="Resources\화살표 6.png" />
+    <None Include="Resources\화살표 1_.png" />
+    <None Include="Resources\회전_1-removebg-preview.png" />
+    <None Include="Resources\화살표 1.png" />
+    <None Include="Resources\화살표 2.png" />
+    <None Include="Resources\화살표 3.png" />
+    <None Include="Resources\화살표 4.png" />
+    <None Include="Resources\화살표 회전 2.png" />
+    <None Include="Resources\화살표 회전 1.png" />
+    <None Include="Resources\VCMLoader.png" />
+    <None Include="Resources\VCMPicker.png" />
+    <None Include="Resources\PlateAngle.png" />
+    <None Include="Resources\Unloader.png" />
+    <None Include="Resources\UnloadPicker.png" />
+    <None Include="Resources\PlateAngle2.png" />
+    <Content Include="SIC_Logo3.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

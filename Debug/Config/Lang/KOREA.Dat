@@ -1,0 +1,194 @@
+START,시작
+STOP,정지
+INITIAL,초기화
+LOT END,랏 엔드
+TASK LOG,태스크 로그
+VCM MAGAZINE,VCM 매거진
+LENS MAGAZINE,렌즈 매거진
+UNLOADER MAGAZINE,언로더 매거진
+MAGAZINE CONTROL,메거진 컨트롤
+INPUT,입력
+MACHINE STATUS,설비 상태
+EQ ID,설비 명칭
+LAYOUT,레이아웃
+SEQUENCE STATUS,시퀀스 상태
+CYCLE TIME,사이클 타임
+INTERFACE,인터페이스
+TACT TIME,택타임
+VCM LOADER,VCM 로더
+VCM PICKER,VCM 피커
+LENS LOADER,렌즈 로더
+LENS PICKER,렌즈 피커
+JIG FLATNESS,JIG 평탄도 측정
+LENS HEIGHT,LENS HEIGHT
+BONDER 1,본더 1
+BONDER 2,본더 2
+VISION INSPECT,비전 검사
+CURING 1,큐어링 1
+CURING 2,큐어링 2
+SIDE ANGLE,면 각도 측정
+UNLOADER,언로더
+UNLOAD PICKER,언로드 피커
+CLEAN JIG,CLEAN JIG
+PRODUCT STATUS,제품 상태
+None Porduct,제품 없음
+Ready,공정 준비
+Error,공정 에러
+Exist,공정 완료
+VCM TRAY INFORMATION,VCM 트레이 정보
+LENS TRAY INFORMATION,L렌즈 트레이 정보
+UNLOADER TRAY INFORMATION,언로더 트레이 정보
+NG TRAY INFORMATION,NG 트레이 정보
+X INDEX,X 인덱스
+Y INDEX,Y 인덱스
+SLOT NO,슬롯 NO
+INDEX,인덱스
+Slot,슬롯
+KOREAN,한국어
+ENGLISH,ENGLISH
+CHINESE,중국어
+VIETNAMESE,베트남어
+OPEN,열기
+SAVE AS,저장
+DELETE,삭제
+Machine Option,설비 옵션
+Run Option,구동 옵션
+Language Option,언어 옵션
+Sequence Option,시퀀스 옵션
+DRY RUN,드라이 런
+   General   ,   일반   
+Unit Use Option,유닛 사용 옵션
+USE JIG FLATNESS,JIG 평탄도 측정 사용
+USE SIDE ANGLE,면 각도 측정 사용
+USE CLEAN JIG,CLEAN JIG 사용
+USE LENS HEIGHT,LENS HEIGHT 사용
+PROJECT,프로젝트
+INDEX,인덱스
+BONDER,본더
+CURING,큐어링
+SETTING,셋팅
+IMAGE,이미지
+JOG,조그
+RELATIVE,릴레이티브
+MAGAZINE,매거진
+TRANSFER,트랜스퍼
+STAGE,스테이지
+SEMI AUTO,반 자동
+Speed,속도
+SPEED,속도
+FAST,고속
+SLOW,저속
+Current Position,현재 위치
+Stage Unclamp,스테이지 언클램프
+Stage Clamp,스테이지 클램프
+Stage Tray Contact,스테이지 트레이 컨택트
+Stage Tray End,스테이지 트레이 엔드
+Magazine Exist,매거진 체크
+Transfer Overload 1,트랜스퍼 오버로드 1
+Transfer Overload 2,트랜스퍼 오버로드 2
+Transfer Unclamp,트랜스퍼 언클램프
+Transfer Clamp,트랜스퍼 클램프
+Transfer Tray Exist,트랜스퍼 트레이 체크
+READY POSITION Z,준비 위치 Z
+RELATIVE UP POSITION Z,릴레이티브 업 위치 Z
+READY POSITION X,준비 위치 X
+MAGAZINE POSITION X,매거진 위치 X
+STAGE POSITION X,스테이지 위치 X
+READY POSITION Y,준비 위치 Y
+WORK POSITION Y,작업 위치 Y
+UNCLAMP,언클램프
+CLAMP,클램프
+VACUUM,진공
+BLOW,블로우
+READY POSITION XY,준비 위치 XY
+STAGE PICK POSITION XY,스테이지 픽 위치 XY
+INDEX PLACE POSITION XY,인덱스 플레이스 위치 XY
+READY POSITION Z,준비 위치 Z
+STAGE PICK POSITION Z,스테이지 픽 위치 Z
+INDEX PLACE POSITION Z,인덱스 플레이스 위치 Z
+READY POSITION T,준비 위치 T
+STAGE PICK POSITION T,스테이지 픽 위치 T
+INDEX PLACE POSITION T,인덱스 플레이스 위치 T
+NG Tray Check,NG 트레이 체크
+Stage Overload,스테이지 오버로드
+HEAD XY,헤드 XY
+HEAD Z,헤드 Z
+HEAD T,헤드 T
+MAGAZINE POSITION Y,매거진 위치 Y
+STAGE POSITION Y,스테이지 위치 Y
+WORK POSITION X,작업 위치 X
+Option,옵션
+UNIT SELECT,유닛 선택
+CURRENT POSITION,현재 위치
+SIGNAL,신호
+SELECT UNIT,유닛을 선택하세요
+JETTING POSITION SETTING,젯팅 위치 셋팅
+BONDER #1,본더 #1
+BONDER #2,본더 #2
+CURING #1,큐어링 #1
+CURING #2,큐어링 #2
+CURING STATUS,상태
+CURING OPTION,옵션
+CYLINDER #1,실린더 #1
+CYLINDER #2,실린더 #2
+STAGE PLACE POSITION XY,스테이지 플레이스 위치 XY
+INDEX PICK POSITION XY,인덱스 픽 위치 XY
+STAGE PLACE POSITION Z,스테이지 플레이스 위치 Z
+INDEX PICK POSITION Z,인덱스 픽 위치 Z
+STAGE PLACE POSITION T,스테이지 플레이스 위치 T
+INDEX PICK POSITION T,인덱스 픽 위치 T
+DEVICE,장비
+MOTION,모터
+DIGITAL,디지털
+IO,IO
+ANALOG,아날로그
+CYLINDER,실린더
+LAMP,램프
+SWITCH,스위치
+   Setting   ,   셋팅   
+   InterFace   ,   인터페이스   
+Information,정보
+ENABLE,ENABLE
+DISABLE,DISABLE
+HOME,홈
+RESET,리셋
+ALL STOP,모두 정지
+ALL SERVO OFF,모든 서보 OFF
+SERVO ON,서보 ON
+SERVO OFF,서보 OFF
+ALL   ENABLE,ALL   ENABLE
+ALL DISABLE,ALL DISABLE
+ALL     SERVO ON,모든     서보 ON
+ALL     SERVO OFF,모든     서보 OFF
+POSITION,위치
+STATUS,상태
+REPEAT,반복
+CLEAR,초기화
+CONFIG,설정
+EMERGENCY SIGNAL,비상 신호
+INPOSITION,인포지션
+ALARM,알람
+SENSOR && LIMIT,센서 && 리미트
+POSITION CLEAR,위치 초기화
+RUN,구동
+Set,설정
+INPUT LIST,입력 목록
+OUTPUT LIST,출력 목록
+ACTIVATE,ACTIVATE
+DEACTIVATE,DEACTIVATE
+ANALOG INPUT LIST,아날로그 입력 목록
+OUTPUT OFF,출력 끄기
+CONFIGURATION,설정
+Forward Information,Forward 정보
+Backward Information,Backward 정보
+ITEMS,목록
+WARNING,경고
+EVENT,이벤트
+DATA,데이터
+    AUTO,    주요화면
+RECIPE,레시피
+TEACH,수동
+SETUP,셋업
+STATISTICS,통계
+PM,PM
+EXIT,나가기

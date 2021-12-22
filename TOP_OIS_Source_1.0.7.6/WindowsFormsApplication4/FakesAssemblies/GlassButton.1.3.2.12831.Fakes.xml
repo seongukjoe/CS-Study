@@ -1,0 +1,1622 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GlassButton.1.3.2.12831.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Glass.Fakes.ShimGlassButton">
+            <summary>Glass.GlassButton의 Shim 형식</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.#ctor">
+            <summary>새 shim 인스턴스를 초기화합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.#ctor(Glass.GlassButton)">
+            <summary>지정된 인스턴스에 대한 새 shim을 초기화합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.BehaveAsCurrent">
+            <summary>Shim된 형식의 모든 메서드에 &apos;Current&apos; 동작을 할당합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.BehaveAsNotImplemented">
+            <summary>Shim된 형식의 모든 메서드에 &apos;NotImplemented&apos; 동작을 할당합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.ComponentModel.IComponent)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.Windows.Forms.IButtonControl)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.ShimGlassButton.Bind(System.IDisposable)">
+            <summary>인터페이스의 멤버를 shim에 바인딩합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.BackColorGet">
+            <summary>GlassButton.get_BackColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.BackColorSetColor">
+            <summary>GlassButton.set_BackColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.Behavior">
+            <summary>Shim된 형식의 모든 메서드에 동작을 할당합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.Constructor">
+            <summary>GlassButton.GlassButton()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateBackgroundFrameBooleanBooleanBooleanBooleanSingle">
+            <summary>GlassButton.CreateBackgroundFrame(Boolean pressed, Boolean hovered, Boolean animating, Boolean enabled, Single glowOpacity)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateBottomRadialPathRectangle">
+            <summary>GlassButton.CreateBottomRadialPath(Rectangle rectangle)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateFrames">
+            <summary>GlassButton.CreateFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateFramesBoolean">
+            <summary>GlassButton.CreateFrames(Boolean withAnimationFrames)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateRoundRectangleRectangleInt32">
+            <summary>GlassButton.CreateRoundRectangle(Rectangle rectangle, Int32 radius)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.CreateTopRoundRectangleRectangleInt32">
+            <summary>GlassButton.CreateTopRoundRectangle(Rectangle rectangle, Int32 radius)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DestroyFrames">
+            <summary>GlassButton.DestroyFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DisposeBoolean">
+            <summary>GlassButton.Dispose(Boolean disposing)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DrawButtonBackgroundFromBufferGraphics">
+            <summary>GlassButton.DrawButtonBackgroundFromBuffer(Graphics graphics)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DrawButtonBackgroundGraphicsRectangleBooleanBooleanBooleanBooleanColorColorColorColorColorSingle">
+            <summary>GlassButton.DrawButtonBackground(Graphics g, Rectangle rectangle, Boolean pressed, Boolean hovered, Boolean animating, Boolean enabled, Color outerBorderColor, Color backColor, Color glowColor, Color shineColor, Color innerBorderColor, Single glowOpacity)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DrawButtonForegroundGraphics">
+            <summary>GlassButton.DrawButtonForeground(Graphics g)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.DrawForegroundFromButtonPaintEventArgs">
+            <summary>GlassButton.DrawForegroundFromButton(PaintEventArgs pevent)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FadeIn">
+            <summary>GlassButton.FadeIn()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FadeOnFocusGet">
+            <summary>GlassButton.get_FadeOnFocus()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FadeOnFocusSetBoolean">
+            <summary>GlassButton.set_FadeOnFocus(Boolean value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FadeOut">
+            <summary>GlassButton.FadeOut()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FlatAppearanceGet">
+            <summary>GlassButton.get_FlatAppearance()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FlatStyleGet">
+            <summary>GlassButton.get_FlatStyle()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.FlatStyleSetFlatStyle">
+            <summary>GlassButton.set_FlatStyle(FlatStyle value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ForeColorGet">
+            <summary>GlassButton.get_ForeColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ForeColorSetColor">
+            <summary>GlassButton.set_ForeColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.GlowColorChangedAddEventHandler">
+            <summary>GlassButton.add_GlowColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.GlowColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_GlowColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.GlowColorGet">
+            <summary>GlassButton.get_GlowColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.GlowColorSetColor">
+            <summary>GlassButton.set_GlowColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.HasAnimationFramesGet">
+            <summary>GlassButton.get_HasAnimationFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.InitializeComponent">
+            <summary>GlassButton.InitializeComponent()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.InnerBorderColorChangedAddEventHandler">
+            <summary>GlassButton.add_InnerBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.InnerBorderColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_InnerBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.InnerBorderColorGet">
+            <summary>GlassButton.get_InnerBorderColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.InnerBorderColorSetColor">
+            <summary>GlassButton.set_InnerBorderColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.IsAnimatingGet">
+            <summary>GlassButton.get_IsAnimating()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.IsPressedGet">
+            <summary>GlassButton.get_IsPressed()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnClickEventArgs">
+            <summary>GlassButton.OnClick(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnEnterEventArgs">
+            <summary>GlassButton.OnEnter(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnGlowColorChangedEventArgs">
+            <summary>GlassButton.OnGlowColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnInnerBorderColorChangedEventArgs">
+            <summary>GlassButton.OnInnerBorderColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnKeyDownKeyEventArgs">
+            <summary>GlassButton.OnKeyDown(KeyEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnKeyUpKeyEventArgs">
+            <summary>GlassButton.OnKeyUp(KeyEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnLeaveEventArgs">
+            <summary>GlassButton.OnLeave(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnMouseDownMouseEventArgs">
+            <summary>GlassButton.OnMouseDown(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnMouseEnterEventArgs">
+            <summary>GlassButton.OnMouseEnter(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnMouseLeaveEventArgs">
+            <summary>GlassButton.OnMouseLeave(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnMouseMoveMouseEventArgs">
+            <summary>GlassButton.OnMouseMove(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnMouseUpMouseEventArgs">
+            <summary>GlassButton.OnMouseUp(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnOuterBorderColorChangedEventArgs">
+            <summary>GlassButton.OnOuterBorderColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnPaintPaintEventArgs">
+            <summary>GlassButton.OnPaint(PaintEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnShineColorChangedEventArgs">
+            <summary>GlassButton.OnShineColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OnSizeChangedEventArgs">
+            <summary>GlassButton.OnSizeChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OuterBorderColorChangedAddEventHandler">
+            <summary>GlassButton.add_OuterBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OuterBorderColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_OuterBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OuterBorderColorGet">
+            <summary>GlassButton.get_OuterBorderColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.OuterBorderColorSetColor">
+            <summary>GlassButton.set_OuterBorderColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.PaintAddPaintEventHandler">
+            <summary>GlassButton.add_Paint(PaintEventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.PaintRemovePaintEventHandler">
+            <summary>GlassButton.remove_Paint(PaintEventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ShineColorChangedAddEventHandler">
+            <summary>GlassButton.add_ShineColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ShineColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_ShineColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ShineColorGet">
+            <summary>GlassButton.get_ShineColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.ShineColorSetColor">
+            <summary>GlassButton.set_ShineColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.StateGet">
+            <summary>GlassButton.get_State()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.UseVisualStyleBackColorGet">
+            <summary>GlassButton.get_UseVisualStyleBackColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.UseVisualStyleBackColorSetBoolean">
+            <summary>GlassButton.set_UseVisualStyleBackColor(Boolean value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.timer_TickObjectEventArgs">
+            <summary>GlassButton.timer_Tick(Object sender, EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="T:Glass.Fakes.ShimGlassButton.AllInstances">
+            <summary>모든 인스턴스 멤버에 대한 shim 정의</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.BackColorGet">
+            <summary>GlassButton.get_BackColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.BackColorSetColor">
+            <summary>GlassButton.set_BackColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.CreateBackgroundFrameBooleanBooleanBooleanBooleanSingle">
+            <summary>GlassButton.CreateBackgroundFrame(Boolean pressed, Boolean hovered, Boolean animating, Boolean enabled, Single glowOpacity)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.CreateFrames">
+            <summary>GlassButton.CreateFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.CreateFramesBoolean">
+            <summary>GlassButton.CreateFrames(Boolean withAnimationFrames)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.DestroyFrames">
+            <summary>GlassButton.DestroyFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.DisposeBoolean">
+            <summary>GlassButton.Dispose(Boolean disposing)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.DrawButtonBackgroundFromBufferGraphics">
+            <summary>GlassButton.DrawButtonBackgroundFromBuffer(Graphics graphics)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.DrawButtonForegroundGraphics">
+            <summary>GlassButton.DrawButtonForeground(Graphics g)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.DrawForegroundFromButtonPaintEventArgs">
+            <summary>GlassButton.DrawForegroundFromButton(PaintEventArgs pevent)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FadeIn">
+            <summary>GlassButton.FadeIn()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FadeOnFocusGet">
+            <summary>GlassButton.get_FadeOnFocus()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FadeOnFocusSetBoolean">
+            <summary>GlassButton.set_FadeOnFocus(Boolean value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FadeOut">
+            <summary>GlassButton.FadeOut()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FlatAppearanceGet">
+            <summary>GlassButton.get_FlatAppearance()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FlatStyleGet">
+            <summary>GlassButton.get_FlatStyle()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.FlatStyleSetFlatStyle">
+            <summary>GlassButton.set_FlatStyle(FlatStyle value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ForeColorGet">
+            <summary>GlassButton.get_ForeColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ForeColorSetColor">
+            <summary>GlassButton.set_ForeColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.GlowColorChangedAddEventHandler">
+            <summary>GlassButton.add_GlowColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.GlowColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_GlowColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.GlowColorGet">
+            <summary>GlassButton.get_GlowColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.GlowColorSetColor">
+            <summary>GlassButton.set_GlowColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.HasAnimationFramesGet">
+            <summary>GlassButton.get_HasAnimationFrames()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.InitializeComponent">
+            <summary>GlassButton.InitializeComponent()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.InnerBorderColorChangedAddEventHandler">
+            <summary>GlassButton.add_InnerBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.InnerBorderColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_InnerBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.InnerBorderColorGet">
+            <summary>GlassButton.get_InnerBorderColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.InnerBorderColorSetColor">
+            <summary>GlassButton.set_InnerBorderColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.IsAnimatingGet">
+            <summary>GlassButton.get_IsAnimating()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.IsPressedGet">
+            <summary>GlassButton.get_IsPressed()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnClickEventArgs">
+            <summary>GlassButton.OnClick(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnEnterEventArgs">
+            <summary>GlassButton.OnEnter(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnGlowColorChangedEventArgs">
+            <summary>GlassButton.OnGlowColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnInnerBorderColorChangedEventArgs">
+            <summary>GlassButton.OnInnerBorderColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnKeyDownKeyEventArgs">
+            <summary>GlassButton.OnKeyDown(KeyEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnKeyUpKeyEventArgs">
+            <summary>GlassButton.OnKeyUp(KeyEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnLeaveEventArgs">
+            <summary>GlassButton.OnLeave(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnMouseDownMouseEventArgs">
+            <summary>GlassButton.OnMouseDown(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnMouseEnterEventArgs">
+            <summary>GlassButton.OnMouseEnter(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnMouseLeaveEventArgs">
+            <summary>GlassButton.OnMouseLeave(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnMouseMoveMouseEventArgs">
+            <summary>GlassButton.OnMouseMove(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnMouseUpMouseEventArgs">
+            <summary>GlassButton.OnMouseUp(MouseEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnOuterBorderColorChangedEventArgs">
+            <summary>GlassButton.OnOuterBorderColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnPaintPaintEventArgs">
+            <summary>GlassButton.OnPaint(PaintEventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnShineColorChangedEventArgs">
+            <summary>GlassButton.OnShineColorChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OnSizeChangedEventArgs">
+            <summary>GlassButton.OnSizeChanged(EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OuterBorderColorChangedAddEventHandler">
+            <summary>GlassButton.add_OuterBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OuterBorderColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_OuterBorderColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OuterBorderColorGet">
+            <summary>GlassButton.get_OuterBorderColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.OuterBorderColorSetColor">
+            <summary>GlassButton.set_OuterBorderColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.PaintAddPaintEventHandler">
+            <summary>GlassButton.add_Paint(PaintEventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.PaintRemovePaintEventHandler">
+            <summary>GlassButton.remove_Paint(PaintEventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ShineColorChangedAddEventHandler">
+            <summary>GlassButton.add_ShineColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ShineColorChangedRemoveEventHandler">
+            <summary>GlassButton.remove_ShineColorChanged(EventHandler value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ShineColorGet">
+            <summary>GlassButton.get_ShineColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.ShineColorSetColor">
+            <summary>GlassButton.set_ShineColor(Color value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.StateGet">
+            <summary>GlassButton.get_State()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.UseVisualStyleBackColorGet">
+            <summary>GlassButton.get_UseVisualStyleBackColor()의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.UseVisualStyleBackColorSetBoolean">
+            <summary>GlassButton.set_UseVisualStyleBackColor(Boolean value)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.ShimGlassButton.AllInstances.timer_TickObjectEventArgs">
+            <summary>GlassButton.timer_Tick(Object sender, EventArgs e)의 shim을(를) 설정합니다.</summary>
+        </member>
+        <member name="T:Glass.Fakes.StubGlassButton">
+            <summary>Glass.GlassButton의 스텁 형식</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.#ctor">
+            <summary>새 인스턴스를 초기화합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AllowDropGet">
+            <summary>Control.get_AllowDrop()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AllowDropSetBoolean">
+            <summary>Control.set_AllowDrop(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AnchorGet">
+            <summary>Control.get_Anchor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AnchorSetAnchorStyles">
+            <summary>Control.set_Anchor(AnchorStyles value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToAllowDrop">
+            <summary>대리자를 연결하여 StubGlassButton.AllowDrop을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToAnchor">
+            <summary>대리자를 연결하여 StubGlassButton.Anchor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToAutoScrollOffset">
+            <summary>대리자를 연결하여 StubGlassButton.AutoScrollOffset을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToAutoSize">
+            <summary>대리자를 연결하여 StubGlassButton.AutoSize을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToBackColor">
+            <summary>대리자를 연결하여 StubGlassButton.BackColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToBackgroundImage">
+            <summary>대리자를 연결하여 StubGlassButton.BackgroundImage을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToBackgroundImageLayout">
+            <summary>대리자를 연결하여 StubGlassButton.BackgroundImageLayout을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToBindingContext">
+            <summary>대리자를 연결하여 StubGlassButton.BindingContext을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToContextMenu">
+            <summary>대리자를 연결하여 StubGlassButton.ContextMenu을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToContextMenuStrip">
+            <summary>대리자를 연결하여 StubGlassButton.ContextMenuStrip을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToCursor">
+            <summary>대리자를 연결하여 StubGlassButton.Cursor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToDialogResult">
+            <summary>대리자를 연결하여 StubGlassButton.DialogResult을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToDock">
+            <summary>대리자를 연결하여 StubGlassButton.Dock을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToDoubleBuffered">
+            <summary>대리자를 연결하여 StubGlassButton.DoubleBuffered을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToFadeOnFocus">
+            <summary>대리자를 연결하여 StubGlassButton.FadeOnFocus을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToFont">
+            <summary>대리자를 연결하여 StubGlassButton.Font을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToForeColor">
+            <summary>대리자를 연결하여 StubGlassButton.ForeColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToGlowColor">
+            <summary>대리자를 연결하여 StubGlassButton.GlowColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToImeModeBase">
+            <summary>대리자를 연결하여 StubGlassButton.ImeModeBase을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToInnerBorderColor">
+            <summary>대리자를 연결하여 StubGlassButton.InnerBorderColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToMaximumSize">
+            <summary>대리자를 연결하여 StubGlassButton.MaximumSize을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToMinimumSize">
+            <summary>대리자를 연결하여 StubGlassButton.MinimumSize을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToOuterBorderColor">
+            <summary>대리자를 연결하여 StubGlassButton.OuterBorderColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToRightToLeft">
+            <summary>대리자를 연결하여 StubGlassButton.RightToLeft을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToShineColor">
+            <summary>대리자를 연결하여 StubGlassButton.ShineColor을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToSite">
+            <summary>대리자를 연결하여 StubGlassButton.Site을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToText">
+            <summary>대리자를 연결하여 StubGlassButton.Text을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.AttachBackingFieldToTextAlign">
+            <summary>대리자를 연결하여 StubGlassButton.TextAlign을(를) 지원 필드가 있는 속성으로 에뮬레이트합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AutoScrollOffsetGet">
+            <summary>Control.get_AutoScrollOffset()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AutoScrollOffsetSetPoint">
+            <summary>Control.set_AutoScrollOffset(Point value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AutoSizeGet">
+            <summary>ButtonBase.get_AutoSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.AutoSizeSetBoolean">
+            <summary>ButtonBase.set_AutoSize(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackColorGet">
+            <summary>GlassButton.get_BackColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackColorSetColor">
+            <summary>GlassButton.set_BackColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackgroundImageGet">
+            <summary>Control.get_BackgroundImage()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackgroundImageLayoutGet">
+            <summary>Control.get_BackgroundImageLayout()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackgroundImageLayoutSetImageLayout">
+            <summary>Control.set_BackgroundImageLayout(ImageLayout value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BackgroundImageSetImage">
+            <summary>Control.set_BackgroundImage(Image value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BindingContextGet">
+            <summary>Control.get_BindingContext()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.BindingContextSetBindingContext">
+            <summary>Control.set_BindingContext(BindingContext value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CanEnableImeGet">
+            <summary>Control.get_CanEnableIme()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CanRaiseEventsGet">
+            <summary>Control.get_CanRaiseEvents()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ContextMenuGet">
+            <summary>Control.get_ContextMenu()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ContextMenuSetContextMenu">
+            <summary>Control.set_ContextMenu(ContextMenu value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ContextMenuStripGet">
+            <summary>Control.get_ContextMenuStrip()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ContextMenuStripSetContextMenuStrip">
+            <summary>Control.set_ContextMenuStrip(ContextMenuStrip value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.CreateAccessibilityInstance">
+            <summary>ButtonBase.CreateAccessibilityInstance()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CreateAccessibilityInstance01">
+            <summary>ButtonBase.CreateAccessibilityInstance()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.CreateControlsInstance">
+            <summary>Control.CreateControlsInstance()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CreateControlsInstance01">
+            <summary>Control.CreateControlsInstance()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.CreateHandle">
+            <summary>Control.CreateHandle()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CreateHandle01">
+            <summary>Control.CreateHandle()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CreateParamsGet">
+            <summary>Button.get_CreateParams()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CursorGet">
+            <summary>Control.get_Cursor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.CursorSetCursor">
+            <summary>Control.set_Cursor(Cursor value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Control.DefWndProc(Message&amp; m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefWndProcMessageRef">
+            <summary>Control.DefWndProc(Message&amp; m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultCursorGet">
+            <summary>Control.get_DefaultCursor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultImeModeGet">
+            <summary>ButtonBase.get_DefaultImeMode()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultMarginGet">
+            <summary>Control.get_DefaultMargin()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultMaximumSizeGet">
+            <summary>Control.get_DefaultMaximumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultMinimumSizeGet">
+            <summary>Control.get_DefaultMinimumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultPaddingGet">
+            <summary>Control.get_DefaultPadding()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DefaultSizeGet">
+            <summary>ButtonBase.get_DefaultSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.DestroyHandle">
+            <summary>Control.DestroyHandle()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DestroyHandle01">
+            <summary>Control.DestroyHandle()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DialogResultGet">
+            <summary>Button.get_DialogResult()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DialogResultSetDialogResult">
+            <summary>Button.set_DialogResult(DialogResult value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DisplayRectangleGet">
+            <summary>Control.get_DisplayRectangle()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.Dispose(System.Boolean)">
+            <summary>GlassButton.Dispose(Boolean disposing)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DisposeBoolean">
+            <summary>GlassButton.Dispose(Boolean disposing)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DockGet">
+            <summary>Control.get_Dock()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DockSetDockStyle">
+            <summary>Control.set_Dock(DockStyle value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DoubleBufferedGet">
+            <summary>Control.get_DoubleBuffered()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.DoubleBufferedSetBoolean">
+            <summary>Control.set_DoubleBuffered(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.FadeOnFocusGet">
+            <summary>GlassButton.get_FadeOnFocus()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.FadeOnFocusSetBoolean">
+            <summary>GlassButton.set_FadeOnFocus(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.FocusedGet">
+            <summary>Control.get_Focused()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.FontGet">
+            <summary>Control.get_Font()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.FontSetFont">
+            <summary>Control.set_Font(Font value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ForeColorGet">
+            <summary>GlassButton.get_ForeColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ForeColorSetColor">
+            <summary>GlassButton.set_ForeColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.GetAccessibilityObjectById(System.Int32)">
+            <summary>Control.GetAccessibilityObjectById(Int32 objectId)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GetAccessibilityObjectByIdInt32">
+            <summary>Control.GetAccessibilityObjectById(Int32 objectId)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.GetPreferredSize(System.Drawing.Size)">
+            <summary>ButtonBase.GetPreferredSize(Size proposedSize)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GetPreferredSizeSize">
+            <summary>ButtonBase.GetPreferredSize(Size proposedSize)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.GetService(System.Type)">
+            <summary>Component.GetService(Type service)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GetServiceType">
+            <summary>Component.GetService(Type service)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GlowColorGet">
+            <summary>GlassButton.get_GlowColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.GlowColorSetColor">
+            <summary>GlassButton.set_GlowColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ImeModeBaseGet">
+            <summary>Control.get_ImeModeBase()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ImeModeBaseSetImeMode">
+            <summary>Control.set_ImeModeBase(ImeMode value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.InitLayout">
+            <summary>Control.InitLayout()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.InitLayout01">
+            <summary>Control.InitLayout()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.InitializeStub">
+            <summary>type StubGlassButton의 새 인스턴스를 초기화합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.InnerBorderColorGet">
+            <summary>GlassButton.get_InnerBorderColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.InnerBorderColorSetColor">
+            <summary>GlassButton.set_InnerBorderColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.IsInputChar(System.Char)">
+            <summary>Control.IsInputChar(Char charCode)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.IsInputCharChar">
+            <summary>Control.IsInputChar(Char charCode)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Control.IsInputKey(Keys keyData)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.IsInputKeyKeys">
+            <summary>Control.IsInputKey(Keys keyData)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.LayoutEngineGet">
+            <summary>Control.get_LayoutEngine()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.MaximumSizeGet">
+            <summary>Control.get_MaximumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.MaximumSizeSetSize">
+            <summary>Control.set_MaximumSize(Size value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.MinimumSizeGet">
+            <summary>Control.get_MinimumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.MinimumSizeSetSize">
+            <summary>Control.set_MinimumSize(Size value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.NotifyDefault(System.Boolean)">
+            <summary>Button.NotifyDefault(Boolean value)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.NotifyDefaultBoolean">
+            <summary>Button.NotifyDefault(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Control.NotifyInvalidate(Rectangle invalidatedArea)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.NotifyInvalidateRectangle">
+            <summary>Control.NotifyInvalidate(Rectangle invalidatedArea)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Control.OnAutoSizeChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnAutoSizeChangedEventArgs">
+            <summary>Control.OnAutoSizeChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnBackColorChanged(System.EventArgs)">
+            <summary>Control.OnBackColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnBackColorChangedEventArgs">
+            <summary>Control.OnBackColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Control.OnBackgroundImageChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnBackgroundImageChangedEventArgs">
+            <summary>Control.OnBackgroundImageChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Control.OnBackgroundImageLayoutChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Control.OnBackgroundImageLayoutChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnBindingContextChanged(System.EventArgs)">
+            <summary>Control.OnBindingContextChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnBindingContextChangedEventArgs">
+            <summary>Control.OnBindingContextChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Control.OnCausesValidationChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnCausesValidationChangedEventArgs">
+            <summary>Control.OnCausesValidationChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Control.OnChangeUICues(UICuesEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnChangeUICuesUICuesEventArgs">
+            <summary>Control.OnChangeUICues(UICuesEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnClick(System.EventArgs)">
+            <summary>GlassButton.OnClick(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnClickEventArgs">
+            <summary>GlassButton.OnClick(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnClientSizeChanged(System.EventArgs)">
+            <summary>Control.OnClientSizeChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnClientSizeChangedEventArgs">
+            <summary>Control.OnClientSizeChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnContextMenuChanged(System.EventArgs)">
+            <summary>Control.OnContextMenuChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnContextMenuChangedEventArgs">
+            <summary>Control.OnContextMenuChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Control.OnContextMenuStripChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnContextMenuStripChangedEventArgs">
+            <summary>Control.OnContextMenuStripChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Control.OnControlAdded(ControlEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnControlAddedControlEventArgs">
+            <summary>Control.OnControlAdded(ControlEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Control.OnControlRemoved(ControlEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnControlRemovedControlEventArgs">
+            <summary>Control.OnControlRemoved(ControlEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnCreateControl">
+            <summary>Control.OnCreateControl()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnCreateControl01">
+            <summary>Control.OnCreateControl()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnCursorChanged(System.EventArgs)">
+            <summary>Control.OnCursorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnCursorChangedEventArgs">
+            <summary>Control.OnCursorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDockChanged(System.EventArgs)">
+            <summary>Control.OnDockChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDockChangedEventArgs">
+            <summary>Control.OnDockChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDoubleClick(System.EventArgs)">
+            <summary>Control.OnDoubleClick(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDoubleClickEventArgs">
+            <summary>Control.OnDoubleClick(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Control.OnDragDrop(DragEventArgs drgevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDragDropDragEventArgs">
+            <summary>Control.OnDragDrop(DragEventArgs drgevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Control.OnDragEnter(DragEventArgs drgevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDragEnterDragEventArgs">
+            <summary>Control.OnDragEnter(DragEventArgs drgevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDragLeave(System.EventArgs)">
+            <summary>Control.OnDragLeave(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDragLeaveEventArgs">
+            <summary>Control.OnDragLeave(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Control.OnDragOver(DragEventArgs drgevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnDragOverDragEventArgs">
+            <summary>Control.OnDragOver(DragEventArgs drgevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnEnabledChanged(System.EventArgs)">
+            <summary>ButtonBase.OnEnabledChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnEnabledChangedEventArgs">
+            <summary>ButtonBase.OnEnabledChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnEnter(System.EventArgs)">
+            <summary>GlassButton.OnEnter(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnEnterEventArgs">
+            <summary>GlassButton.OnEnter(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnFontChanged(System.EventArgs)">
+            <summary>Button.OnFontChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnFontChangedEventArgs">
+            <summary>Button.OnFontChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnForeColorChanged(System.EventArgs)">
+            <summary>Control.OnForeColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnForeColorChangedEventArgs">
+            <summary>Control.OnForeColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnGlowColorChanged(System.EventArgs)">
+            <summary>GlassButton.OnGlowColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnGlowColorChangedEventArgs">
+            <summary>GlassButton.OnGlowColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnGotFocus(System.EventArgs)">
+            <summary>ButtonBase.OnGotFocus(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnGotFocusEventArgs">
+            <summary>ButtonBase.OnGotFocus(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnHandleCreated(System.EventArgs)">
+            <summary>Control.OnHandleCreated(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnHandleCreatedEventArgs">
+            <summary>Control.OnHandleCreated(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnHandleDestroyed(System.EventArgs)">
+            <summary>Control.OnHandleDestroyed(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnHandleDestroyedEventArgs">
+            <summary>Control.OnHandleDestroyed(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Control.OnHelpRequested(HelpEventArgs hevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnHelpRequestedHelpEventArgs">
+            <summary>Control.OnHelpRequested(HelpEventArgs hevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnImeModeChanged(System.EventArgs)">
+            <summary>Control.OnImeModeChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnImeModeChangedEventArgs">
+            <summary>Control.OnImeModeChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnInnerBorderColorChanged(System.EventArgs)">
+            <summary>GlassButton.OnInnerBorderColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnInnerBorderColorChangedEventArgs">
+            <summary>GlassButton.OnInnerBorderColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Control.OnInvalidated(InvalidateEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnInvalidatedInvalidateEventArgs">
+            <summary>Control.OnInvalidated(InvalidateEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>GlassButton.OnKeyDown(KeyEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnKeyDownKeyEventArgs">
+            <summary>GlassButton.OnKeyDown(KeyEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Control.OnKeyPress(KeyPressEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnKeyPressKeyPressEventArgs">
+            <summary>Control.OnKeyPress(KeyPressEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>GlassButton.OnKeyUp(KeyEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnKeyUpKeyEventArgs">
+            <summary>GlassButton.OnKeyUp(KeyEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Control.OnLayout(LayoutEventArgs levent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnLayoutLayoutEventArgs">
+            <summary>Control.OnLayout(LayoutEventArgs levent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnLeave(System.EventArgs)">
+            <summary>GlassButton.OnLeave(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnLeaveEventArgs">
+            <summary>GlassButton.OnLeave(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnLocationChanged(System.EventArgs)">
+            <summary>Control.OnLocationChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnLocationChangedEventArgs">
+            <summary>Control.OnLocationChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnLostFocus(System.EventArgs)">
+            <summary>ButtonBase.OnLostFocus(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnLostFocusEventArgs">
+            <summary>ButtonBase.OnLostFocus(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMarginChanged(System.EventArgs)">
+            <summary>Control.OnMarginChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMarginChangedEventArgs">
+            <summary>Control.OnMarginChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Control.OnMouseCaptureChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseCaptureChangedEventArgs">
+            <summary>Control.OnMouseCaptureChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Control.OnMouseClick(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseClickMouseEventArgs">
+            <summary>Control.OnMouseClick(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Control.OnMouseDoubleClick(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseDoubleClickMouseEventArgs">
+            <summary>Control.OnMouseDoubleClick(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>GlassButton.OnMouseDown(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseDownMouseEventArgs">
+            <summary>GlassButton.OnMouseDown(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseEnter(System.EventArgs)">
+            <summary>GlassButton.OnMouseEnter(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseEnterEventArgs">
+            <summary>GlassButton.OnMouseEnter(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseHover(System.EventArgs)">
+            <summary>Control.OnMouseHover(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseHoverEventArgs">
+            <summary>Control.OnMouseHover(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseLeave(System.EventArgs)">
+            <summary>GlassButton.OnMouseLeave(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseLeaveEventArgs">
+            <summary>GlassButton.OnMouseLeave(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>GlassButton.OnMouseMove(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseMoveMouseEventArgs">
+            <summary>GlassButton.OnMouseMove(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>GlassButton.OnMouseUp(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseUpMouseEventArgs">
+            <summary>GlassButton.OnMouseUp(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Control.OnMouseWheel(MouseEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMouseWheelMouseEventArgs">
+            <summary>Control.OnMouseWheel(MouseEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnMove(System.EventArgs)">
+            <summary>Control.OnMove(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnMoveEventArgs">
+            <summary>Control.OnMove(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Control.OnNotifyMessage(Message m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnNotifyMessageMessage">
+            <summary>Control.OnNotifyMessage(Message m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnOuterBorderColorChanged(System.EventArgs)">
+            <summary>GlassButton.OnOuterBorderColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnOuterBorderColorChangedEventArgs">
+            <summary>GlassButton.OnOuterBorderColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnPaddingChanged(System.EventArgs)">
+            <summary>Control.OnPaddingChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnPaddingChangedEventArgs">
+            <summary>Control.OnPaddingChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>GlassButton.OnPaint(PaintEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Control.OnPaintBackground(PaintEventArgs pevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnPaintBackgroundPaintEventArgs">
+            <summary>Control.OnPaintBackground(PaintEventArgs pevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnPaintPaintEventArgs">
+            <summary>GlassButton.OnPaint(PaintEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Control.OnParentBackColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentBackColorChangedEventArgs">
+            <summary>Control.OnParentBackColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Control.OnParentBackgroundImageChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentBackgroundImageChangedEventArgs">
+            <summary>Control.OnParentBackgroundImageChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Control.OnParentBindingContextChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentBindingContextChangedEventArgs">
+            <summary>Control.OnParentBindingContextChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentChanged(System.EventArgs)">
+            <summary>ButtonBase.OnParentChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentChangedEventArgs">
+            <summary>ButtonBase.OnParentChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentCursorChanged(System.EventArgs)">
+            <summary>Control.OnParentCursorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentCursorChangedEventArgs">
+            <summary>Control.OnParentCursorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Control.OnParentEnabledChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentEnabledChangedEventArgs">
+            <summary>Control.OnParentEnabledChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentFontChanged(System.EventArgs)">
+            <summary>Control.OnParentFontChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentFontChangedEventArgs">
+            <summary>Control.OnParentFontChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Control.OnParentForeColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentForeColorChangedEventArgs">
+            <summary>Control.OnParentForeColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Control.OnParentRightToLeftChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentRightToLeftChangedEventArgs">
+            <summary>Control.OnParentRightToLeftChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Control.OnParentVisibleChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnParentVisibleChangedEventArgs">
+            <summary>Control.OnParentVisibleChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Control.OnPrint(PaintEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnPrintPaintEventArgs">
+            <summary>Control.OnPrint(PaintEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnRegionChanged(System.EventArgs)">
+            <summary>Control.OnRegionChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnRegionChangedEventArgs">
+            <summary>Control.OnRegionChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnResize(System.EventArgs)">
+            <summary>Control.OnResize(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnResizeEventArgs">
+            <summary>Control.OnResize(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Control.OnRightToLeftChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnRightToLeftChangedEventArgs">
+            <summary>Control.OnRightToLeftChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnShineColorChanged(System.EventArgs)">
+            <summary>GlassButton.OnShineColorChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnShineColorChangedEventArgs">
+            <summary>GlassButton.OnShineColorChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnSizeChanged(System.EventArgs)">
+            <summary>GlassButton.OnSizeChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnSizeChangedEventArgs">
+            <summary>GlassButton.OnSizeChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnStyleChanged(System.EventArgs)">
+            <summary>Control.OnStyleChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnStyleChangedEventArgs">
+            <summary>Control.OnStyleChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Control.OnSystemColorsChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnSystemColorsChangedEventArgs">
+            <summary>Control.OnSystemColorsChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnTabIndexChanged(System.EventArgs)">
+            <summary>Control.OnTabIndexChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnTabIndexChangedEventArgs">
+            <summary>Control.OnTabIndexChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnTabStopChanged(System.EventArgs)">
+            <summary>Control.OnTabStopChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnTabStopChangedEventArgs">
+            <summary>Control.OnTabStopChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnTextChanged(System.EventArgs)">
+            <summary>Button.OnTextChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnTextChangedEventArgs">
+            <summary>Button.OnTextChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnValidated(System.EventArgs)">
+            <summary>Control.OnValidated(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnValidatedEventArgs">
+            <summary>Control.OnValidated(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Control.OnValidating(CancelEventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnValidatingCancelEventArgs">
+            <summary>Control.OnValidating(CancelEventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.OnVisibleChanged(System.EventArgs)">
+            <summary>ButtonBase.OnVisibleChanged(EventArgs e)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OnVisibleChangedEventArgs">
+            <summary>ButtonBase.OnVisibleChanged(EventArgs e)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OuterBorderColorGet">
+            <summary>GlassButton.get_OuterBorderColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.OuterBorderColorSetColor">
+            <summary>GlassButton.set_OuterBorderColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Control.PreProcessMessage(Message&amp; msg)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.PreProcessMessageMessageRef">
+            <summary>Control.PreProcessMessage(Message&amp; msg)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Control.ProcessCmdKey(Message&amp; msg, Keys keyData)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessCmdKeyMessageRefKeys">
+            <summary>Control.ProcessCmdKey(Message&amp; msg, Keys keyData)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessDialogChar(System.Char)">
+            <summary>Control.ProcessDialogChar(Char charCode)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessDialogCharChar">
+            <summary>Control.ProcessDialogChar(Char charCode)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Control.ProcessDialogKey(Keys keyData)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessDialogKeyKeys">
+            <summary>Control.ProcessDialogKey(Keys keyData)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Control.ProcessKeyEventArgs(Message&amp; m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessKeyEventArgsMessageRef">
+            <summary>Control.ProcessKeyEventArgs(Message&amp; m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Control.ProcessKeyMessage(Message&amp; m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessKeyMessageMessageRef">
+            <summary>Control.ProcessKeyMessage(Message&amp; m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Control.ProcessKeyPreview(Message&amp; m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessKeyPreviewMessageRef">
+            <summary>Control.ProcessKeyPreview(Message&amp; m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ProcessMnemonic(System.Char)">
+            <summary>Button.ProcessMnemonic(Char charCode)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ProcessMnemonicChar">
+            <summary>Button.ProcessMnemonic(Char charCode)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.Refresh">
+            <summary>Control.Refresh()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.Refresh01">
+            <summary>Control.Refresh()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetBackColor">
+            <summary>Control.ResetBackColor()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetBackColor01">
+            <summary>Control.ResetBackColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetCursor">
+            <summary>Control.ResetCursor()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetCursor01">
+            <summary>Control.ResetCursor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetFont">
+            <summary>Control.ResetFont()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetFont01">
+            <summary>Control.ResetFont()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetForeColor">
+            <summary>Control.ResetForeColor()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetForeColor01">
+            <summary>Control.ResetForeColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetRightToLeft">
+            <summary>Control.ResetRightToLeft()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetRightToLeft01">
+            <summary>Control.ResetRightToLeft()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ResetText">
+            <summary>Control.ResetText()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ResetText01">
+            <summary>Control.ResetText()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.RightToLeftGet">
+            <summary>Control.get_RightToLeft()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.RightToLeftSetRightToLeft">
+            <summary>Control.set_RightToLeft(RightToLeft value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ScaleChildrenGet">
+            <summary>Control.get_ScaleChildren()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Control.ScaleControl(SizeF factor, BoundsSpecified specified)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ScaleControlSizeFBoundsSpecified">
+            <summary>Control.ScaleControl(SizeF factor, BoundsSpecified specified)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ScaleCore(System.Single,System.Single)">
+            <summary>Control.ScaleCore(Single dx, Single dy)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ScaleCoreSingleSingle">
+            <summary>Control.ScaleCore(Single dx, Single dy)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.Select(System.Boolean,System.Boolean)">
+            <summary>Control.Select(Boolean directed, Boolean forward)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SelectBooleanBoolean">
+            <summary>Control.Select(Boolean directed, Boolean forward)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Control.SetClientSizeCore(Int32 x, Int32 y)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SetClientSizeCoreInt32Int32">
+            <summary>Control.SetClientSizeCore(Int32 x, Int32 y)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.SetVisibleCore(System.Boolean)">
+            <summary>Control.SetVisibleCore(Boolean value)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SetVisibleCoreBoolean">
+            <summary>Control.SetVisibleCore(Boolean value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ShineColorGet">
+            <summary>GlassButton.get_ShineColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ShineColorSetColor">
+            <summary>GlassButton.set_ShineColor(Color value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ShowFocusCuesGet">
+            <summary>Control.get_ShowFocusCues()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ShowKeyboardCuesGet">
+            <summary>Control.get_ShowKeyboardCues()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SiteGet">
+            <summary>Control.get_Site()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SiteSetISite">
+            <summary>Control.set_Site(ISite value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Control.SizeFromClientSize(Size clientSize)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.SizeFromClientSizeSize">
+            <summary>Control.SizeFromClientSize(Size clientSize)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.TextAlignGet">
+            <summary>ButtonBase.get_TextAlign()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.TextAlignSetContentAlignment">
+            <summary>ButtonBase.set_TextAlign(ContentAlignment value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.TextGet">
+            <summary>ButtonBase.get_Text()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.TextSetString">
+            <summary>ButtonBase.set_Text(String value)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.ToString">
+            <summary>Button.ToString()의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.ToString01">
+            <summary>Button.ToString()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="M:Glass.Fakes.StubGlassButton.WndProc(System.Windows.Forms.Message@)">
+            <summary>Button.WndProc(Message&amp; m)의 스텁을(를) 설정합니다.</summary>
+        </member>
+        <member name="F:Glass.Fakes.StubGlassButton.WndProcMessageRef">
+            <summary>Button.WndProc(Message&amp; m)의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.AllowDrop">
+            <summary>Control.get_AllowDrop()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Anchor">
+            <summary>Control.get_Anchor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.AutoScrollOffset">
+            <summary>Control.get_AutoScrollOffset()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.AutoSize">
+            <summary>ButtonBase.get_AutoSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.BackColor">
+            <summary>GlassButton.get_BackColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.BackgroundImage">
+            <summary>Control.get_BackgroundImage()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.BackgroundImageLayout">
+            <summary>Control.get_BackgroundImageLayout()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.BindingContext">
+            <summary>Control.get_BindingContext()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.CallBase">
+            <summary>대체(fallback) 동작 대신 기준 메서드를 호출해야 하는지 여부를 나타내는 값을 가져오거나 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.CanEnableIme">
+            <summary>Control.get_CanEnableIme()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.CanRaiseEvents">
+            <summary>Control.get_CanRaiseEvents()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ContextMenu">
+            <summary>Control.get_ContextMenu()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ContextMenuStrip">
+            <summary>Control.get_ContextMenuStrip()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.CreateParams">
+            <summary>Button.get_CreateParams()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Cursor">
+            <summary>Control.get_Cursor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultCursor">
+            <summary>Control.get_DefaultCursor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultImeMode">
+            <summary>ButtonBase.get_DefaultImeMode()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultMargin">
+            <summary>Control.get_DefaultMargin()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultMaximumSize">
+            <summary>Control.get_DefaultMaximumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultMinimumSize">
+            <summary>Control.get_DefaultMinimumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultPadding">
+            <summary>Control.get_DefaultPadding()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DefaultSize">
+            <summary>ButtonBase.get_DefaultSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DialogResult">
+            <summary>Button.get_DialogResult()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DisplayRectangle">
+            <summary>Control.get_DisplayRectangle()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Dock">
+            <summary>Control.get_Dock()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.DoubleBuffered">
+            <summary>Control.get_DoubleBuffered()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.FadeOnFocus">
+            <summary>GlassButton.get_FadeOnFocus()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Focused">
+            <summary>Control.get_Focused()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Font">
+            <summary>Control.get_Font()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ForeColor">
+            <summary>GlassButton.get_ForeColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.GlowColor">
+            <summary>GlassButton.get_GlowColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ImeModeBase">
+            <summary>Control.get_ImeModeBase()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.InnerBorderColor">
+            <summary>GlassButton.get_InnerBorderColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.InstanceBehavior">
+            <summary>인스턴스 동작을 가져오거나 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.InstanceObserver">
+            <summary>인스턴스 관찰자를 가져오거나 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.LayoutEngine">
+            <summary>Control.get_LayoutEngine()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.MaximumSize">
+            <summary>Control.get_MaximumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.MinimumSize">
+            <summary>Control.get_MinimumSize()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.OuterBorderColor">
+            <summary>GlassButton.get_OuterBorderColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.RightToLeft">
+            <summary>Control.get_RightToLeft()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ScaleChildren">
+            <summary>Control.get_ScaleChildren()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ShineColor">
+            <summary>GlassButton.get_ShineColor()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ShowFocusCues">
+            <summary>Control.get_ShowFocusCues()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.ShowKeyboardCues">
+            <summary>Control.get_ShowKeyboardCues()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Site">
+            <summary>Control.get_Site()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.Text">
+            <summary>ButtonBase.get_Text()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="P:Glass.Fakes.StubGlassButton.TextAlign">
+            <summary>ButtonBase.get_TextAlign()의 stub을(를) 설정합니다.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.GlassButtonDelegates">
+            <summary>GlassButton의 스텁 및 shim에 사용되는 사용자 지정 대리자를 포함합니다.</summary>
+        </member>
+    </members>
+</doc>

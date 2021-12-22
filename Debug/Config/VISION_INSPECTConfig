@@ -1,0 +1,6 @@
+[VISION_INSPECT]
+VCMVisionReadyPosition=0
+VCMVisionWorkPosition=67849
+VCMVisionMovingDelay=0
+VCMVisionGrabDelay=200
+VisionInspectGrabDelay=0

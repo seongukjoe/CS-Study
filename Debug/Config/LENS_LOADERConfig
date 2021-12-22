@@ -1,0 +1,11 @@
+[LENS_LOADER]
+ReadyPositionZ=-1814
+InOutOffsetZ=0
+ReadyPositionY=0
+StagePositionY=20192
+MagazinePositionY=216941
+ReadyPositionX=243
+EjectPositionX=243
+WorkPositionX=0
+StageFirstPickPositionX=1043
+StageMagazineChangePositionX=1043

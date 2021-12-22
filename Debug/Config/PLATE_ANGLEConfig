@@ -1,0 +1,6 @@
+[PLATE_ANGLE]
+DefaultValue=1000
+MinLimit=1000
+MaxLimit=1000
+ReadyPosition=19600
+WorkPosition=38300

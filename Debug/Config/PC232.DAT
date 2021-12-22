@@ -1,0 +1,51 @@
+[INFO]
+PortCount = 3
+
+[PORT_NAME]
+Name_01 = LensHeight
+Name_02 = Bond1
+Name_03 = Bond2
+
+[LensHeight]
+PortName    =COM1
+BaudRate    =9600
+Paritys     = None
+DataBits    = 8
+StopBit     = ONE
+DiscardNull = false
+ReadTimeout = 1000
+WriteTimeout= 1000
+NewLine     = CRLF
+RtsEnable   = false
+DtrEnable   = false
+Handshake   = None
+
+
+[Bond1]
+PortName    =COM21
+BaudRate    =9600
+Paritys     = None
+DataBits    = 8
+StopBit     = ONE
+DiscardNull = false
+ReadTimeout = 1000
+WriteTimeout= 1000
+NewLine     = CRLF
+RtsEnable   = false
+DtrEnable   = false
+Handshake   = None
+
+
+[Bond2]
+PortName    =COM20
+BaudRate    =9600
+Paritys     = None
+DataBits    = 8
+StopBit     = ONE
+DiscardNull = false
+ReadTimeout = 1000
+WriteTimeout= 1000
+NewLine     = CRLF
+RtsEnable   = false
+DtrEnable   = false
+Handshake   = None

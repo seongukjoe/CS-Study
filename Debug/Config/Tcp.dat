@@ -1,0 +1,65 @@
+//prs 9001, 9002
+; The Address mean other computer's Ip that you request connection.  (server Ip) 
+
+[PC_TCP]
+Client_Count = 6
+Server_Count = 0
+
+[SERVER_NAME]
+TcpName_01 = LENS_TOP
+TcpName_02 = LENS_BOTTOM
+TcpName_03 = VCM_TOP
+TcpName_04 = DIPPING_1
+TcpName_05 = DIPPING_2
+TcpName_06 = INSPECT
+
+[CLIENT_NAME]
+TcpName_01 = LENS_TOP
+TcpName_02 = LENS_BOTTOM
+TcpName_03 = VCM_TOP
+TcpName_04 = DIPPING_1
+TcpName_05 = DIPPING_2
+TcpName_06 = INSPECT
+
+[CLIENT_LENS_TOP]
+Address    =192.168.80.101
+PortNo     =8001
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+
+[CLIENT_LENS_BOTTOM]
+Address    =192.168.80.101
+PortNo     =8002
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+
+[CLIENT_VCM_TOP]
+Address    =192.168.80.101
+PortNo     =8003
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+
+[CLIENT_DIPPING_1]
+Address    =192.168.80.101
+PortNo     =8004
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+
+[CLIENT_DIPPING_2]
+Address    =192.168.80.101
+PortNo     =8005
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+
+[CLIENT_INSPECT]
+Address    =192.168.80.101
+PortNo     =8006
+Interval   = 1
+BufferSize = 4096
+ReConnect  = true
+

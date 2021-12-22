@@ -1,0 +1,8 @@
+[SuperEcm1]
+PressTime=300
+PressValue=4000
+VacValue=100
+[SuperEcm2]
+PressTime=1
+PressValue=4000
+VacValue=100

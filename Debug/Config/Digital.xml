@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Digital>
+  <Board1>
+    <No>0</No>
+    <Offset>0</Offset>
+  </Board1>
+  <Board2>
+    <No>1</No>
+    <Offset>0</Offset>
+  </Board2>
+  <Board3>
+    <No>2</No>
+    <Offset>0</Offset>
+  </Board3>
+  <Board4>
+    <No>3</No>
+    <Offset>0</Offset>
+  </Board4>
+  <Board5>
+    <No>4</No>
+    <Offset>0</Offset>
+  </Board5>
+  <Board6>
+    <No>5</No>
+    <Offset>0</Offset>
+  </Board6>
+  <Input1>
+    <Target>0</Target>
+    <Text>Start Switch</Text>
+    <Reverse>False</Reverse>
+  </Input1>
+  <Input2>
+    <Target>1</Target>
+    <Text>Stop Switch</Text>
+    <Reverse>False</Reverse>
+  </Input2>
+  <Input3>
+    <Target>2</Target>
+    <Text>OK Switch</Text>
+    <Reverse>False</Reverse>
+  </Input3>
+  <Input4>
+    <Target>3</Target>
+    <Text>Home Switch</Text>
+    <Reverse>False</Reverse>
+  </Input4>
+  <Input5>
+    <Target>4</Target>
+    <Text>Front Emergency Switch</Text>
+    <Reverse>False</Reverse>
+  </Input5>
+  <Input6>
+    <Target>5</Target>
+    <Text>Rear Emergency Switch</Text>
+    <Reverse>False</Reverse>
+  </Input6>
+  <Input7>
+    <Target>6</Target>
+    <Text>Main MC ON/OFF</Text>
+    <Reverse>False</Reverse>
+  </Input7>
+  <Input8>
+    <Target>7</Target>
+    <Text>VCM Loading Vacuum Check Meter</Text>
+    <Reverse>False</Reverse>
+  </Input8>
+  <Input9>
+    <Target>8</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input9>
+  <Input10>
+    <Target>9</Target>
+    <Text>VCM Unloading Vacuum Check Meter</Text>
+    <Reverse>False</Reverse>
+  </Input10>
+  <Input11>
+    <Target>10</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input11>
+  <Input12>
+    <Target>11</Target>
+    <Text>VCM Head Loading Overload Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input12>
+  <Input13>
+    <Target>12</Target>
+    <Text>VCM Head Unloading Overload Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input13>
+  <Input14>
+    <Target>13</Target>
+    <Text>Lens Insert Vacuum Check Meter</Text>
+    <Reverse>False</Reverse>
+  </Input14>
+  <Input15>
+    <Target>14</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input15>
+  <Input16>
+    <Target>15</Target>
+    <Text>Transfer VCM Loading Overload_1</Text>
+    <Reverse>True</Reverse>
+  </Input16>
+  <Input17>
+    <Target>16</Target>
+    <Text>Transfer VCM Loading Overload_2</Text>
+    <Reverse>True</Reverse>
+  </Input17>
+  <Input18>
+    <Target>17</Target>
+    <Text>Transfer VCM Unloading Overload_1</Text>
+    <Reverse>True</Reverse>
+  </Input18>
+  <Input19>
+    <Target>18</Target>
+    <Text>Transfer VCM Unloading Overload_2</Text>
+    <Reverse>True</Reverse>
+  </Input19>
+  <Input20>
+    <Target>19</Target>
+    <Text>Transfer Lens Loading Overload_1</Text>
+    <Reverse>True</Reverse>
+  </Input20>
+  <Input21>
+    <Target>20</Target>
+    <Text>Transfer Lens Loading Overload_2</Text>
+    <Reverse>True</Reverse>
+  </Input21>
+  <Input22>
+    <Target>21</Target>
+    <Text>Transfer Loading Tray Clamp Cylinder Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input22>
+  <Input23>
+    <Target>22</Target>
+    <Text>Transfer Loading Tray Clamp Cylinder UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input23>
+  <Input24>
+    <Target>23</Target>
+    <Text>Transfer Unloading Tray Clamp Cylinder Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input24>
+  <Input25>
+    <Target>24</Target>
+    <Text>Transfer Unloading Tray Clamp Cylinder UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input25>
+  <Input26>
+    <Target>25</Target>
+    <Text>Transfer Lens Tray Clamp Cylinder Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input26>
+  <Input27>
+    <Target>26</Target>
+    <Text>Transfer Lens Tray Clamp Cylinder UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input27>
+  <Input28>
+    <Target>27</Target>
+    <Text>Transfer Loading Tray Check</Text>
+    <Reverse>False</Reverse>
+  </Input28>
+  <Input29>
+    <Target>28</Target>
+    <Text>Transfer Unloading Tray Check</Text>
+    <Reverse>False</Reverse>
+  </Input29>
+  <Input30>
+    <Target>29</Target>
+    <Text>Transfer Lens Tray Check</Text>
+    <Reverse>False</Reverse>
+  </Input30>
+  <Input31>
+    <Target>30</Target>
+    <Text>Stage VCM Loading Tray Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input31>
+  <Input32>
+    <Target>31</Target>
+    <Text>Stage VCM Loading Tray UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input32>
+  <Input33>
+    <Target>32</Target>
+    <Text>Stage Lens Loading Tray Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input33>
+  <Input34>
+    <Target>33</Target>
+    <Text>Stage Lens Loading Tray Unclamp</Text>
+    <Reverse>False</Reverse>
+  </Input34>
+  <Input35>
+    <Target>34</Target>
+    <Text>Stage VCM Loading Tray End Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input35>
+  <Input36>
+    <Target>35</Target>
+    <Text>Stage VCM Loading Tray Contact Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input36>
+  <Input37>
+    <Target>36</Target>
+    <Text>Stage Lens Loading Tray End Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input37>
+  <Input38>
+    <Target>37</Target>
+    <Text>Stage Lens Loading Tray Contact Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input38>
+  <Input39>
+    <Target>38</Target>
+    <Text>Stage VCM Unloading Tray Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input39>
+  <Input40>
+    <Target>39</Target>
+    <Text>Stage VCM Unloading Tray UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input40>
+  <Input41>
+    <Target>40</Target>
+    <Text>Stage VCM Unloading Tray End Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input41>
+  <Input42>
+    <Target>41</Target>
+    <Text>Stage VCM Unloading Tray Contact Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input42>
+  <Input43>
+    <Target>42</Target>
+    <Text>Stage VCM Unloading NG Tray Check Sensor</Text>
+    <Reverse>False</Reverse>
+  </Input43>
+  <Input44>
+    <Target>43</Target>
+    <Text>Lens Push Unit Forward</Text>
+    <Reverse>False</Reverse>
+  </Input44>
+  <Input45>
+    <Target>44</Target>
+    <Text>VCM Loading Magazine Check</Text>
+    <Reverse>False</Reverse>
+  </Input45>
+  <Input46>
+    <Target>45</Target>
+    <Text>VCM Unloading Magazine Check</Text>
+    <Reverse>False</Reverse>
+  </Input46>
+  <Input47>
+    <Target>46</Target>
+    <Text>Lens Loading Magazine Check</Text>
+    <Reverse>False</Reverse>
+  </Input47>
+  <Input48>
+    <Target>47</Target>
+    <Text>Side Angle Measure Unloading Vacuum Check Meter</Text>
+    <Reverse>False</Reverse>
+  </Input48>
+  <Input49>
+    <Target>48</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input49>
+  <Input50>
+    <Target>49</Target>
+    <Text>Side Angle Measure Unloading Move Foward</Text>
+    <Reverse>False</Reverse>
+  </Input50>
+  <Input51>
+    <Target>50</Target>
+    <Text>Side Angle Measure Unloading Move Backward</Text>
+    <Reverse>False</Reverse>
+  </Input51>
+  <Input52>
+    <Target>51</Target>
+    <Text>Side Angle Measure Unloading Up</Text>
+    <Reverse>False</Reverse>
+  </Input52>
+  <Input53>
+    <Target>52</Target>
+    <Text>Side Angle Measure Unloading Down</Text>
+    <Reverse>False</Reverse>
+  </Input53>
+  <Input54>
+    <Target>53</Target>
+    <Text>Side Angle Measure Unloading Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input54>
+  <Input55>
+    <Target>54</Target>
+    <Text>Side Angle Measure Unloading UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input55>
+  <Input56>
+    <Target>55</Target>
+    <Text>Side Angle Measure Unloading Contact</Text>
+    <Reverse>False</Reverse>
+  </Input56>
+  <Input57>
+    <Target>56</Target>
+    <Text>Side Angle Measure Unloading UnContact</Text>
+    <Reverse>False</Reverse>
+  </Input57>
+  <Input58>
+    <Target>57</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input58>
+  <Input59>
+    <Target>58</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input59>
+  <Input60>
+    <Target>59</Target>
+    <Text>Lens Height Unit Go</Text>
+    <Reverse>False</Reverse>
+  </Input60>
+  <Input61>
+    <Target>60</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input61>
+  <Input62>
+    <Target>61</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input62>
+  <Input63>
+    <Target>62</Target>
+    <Text>Bonding Head #1 Nozzle Height Touch Sensor</Text>
+    <Reverse>True</Reverse>
+  </Input63>
+  <Input64>
+    <Target>63</Target>
+    <Text>Bonding Head #2 Nozzle Height Touch Sensor</Text>
+    <Reverse>True</Reverse>
+  </Input64>
+  <Input65>
+    <Target>64</Target>
+    <Text>Bonding Head #1 Nozzle Clean Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input65>
+  <Input66>
+    <Target>65</Target>
+    <Text>Bonding Head #1 Nozzle Clean UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input66>
+  <Input67>
+    <Target>66</Target>
+    <Text>Bonding Head #2 Nozzle  Clean Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input67>
+  <Input68>
+    <Target>67</Target>
+    <Text>Bonding Head #2 Nozzle Clean Unclamp</Text>
+    <Reverse>False</Reverse>
+  </Input68>
+  <Input69>
+    <Target>68</Target>
+    <Text>UV Clamp Up</Text>
+    <Reverse>False</Reverse>
+  </Input69>
+  <Input70>
+    <Target>69</Target>
+    <Text>UV Clamp Down</Text>
+    <Reverse>False</Reverse>
+  </Input70>
+  <Input71>
+    <Target>70</Target>
+    <Text>UV Contact</Text>
+    <Reverse>False</Reverse>
+  </Input71>
+  <Input72>
+    <Target>71</Target>
+    <Text>UV UnContact</Text>
+    <Reverse>False</Reverse>
+  </Input72>
+  <Input73>
+    <Target>72</Target>
+    <Text>UV #1 Shutter Open Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input73>
+  <Input74>
+    <Target>73</Target>
+    <Text>UV #1 Lamp Ready Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input74>
+  <Input75>
+    <Target>74</Target>
+    <Text>UV #1 Alarm Monitor</Text>
+    <Reverse>True</Reverse>
+  </Input75>
+  <Input76>
+    <Target>75</Target>
+    <Text>UV #1 Shutter Close Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input76>
+  <Input77>
+    <Target>76</Target>
+    <Text>UV #1 USE Time OUT</Text>
+    <Reverse>False</Reverse>
+  </Input77>
+  <Input78>
+    <Target>77</Target>
+    <Text>Lens Push Unit Backward</Text>
+    <Reverse>False</Reverse>
+  </Input78>
+  <Input79>
+    <Target>78</Target>
+    <Text>UV #2 Shutter Open Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input79>
+  <Input80>
+    <Target>79</Target>
+    <Text>UV #2 Lamp Ready Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input80>
+  <Input81>
+    <Target>80</Target>
+    <Text>UV #2 Alarm Monitor</Text>
+    <Reverse>True</Reverse>
+  </Input81>
+  <Input82>
+    <Target>81</Target>
+    <Text>UV #2 Shutter Close Monitor</Text>
+    <Reverse>False</Reverse>
+  </Input82>
+  <Input83>
+    <Target>82</Target>
+    <Text>UV #2 USE Time OUT</Text>
+    <Reverse>False</Reverse>
+  </Input83>
+  <Input84>
+    <Target>83</Target>
+    <Text>Lens Push Unit Down</Text>
+    <Reverse>False</Reverse>
+  </Input84>
+  <Input85>
+    <Target>84</Target>
+    <Text>JIG Clean Up</Text>
+    <Reverse>False</Reverse>
+  </Input85>
+  <Input86>
+    <Target>85</Target>
+    <Text>JIG Clean Down</Text>
+    <Reverse>False</Reverse>
+  </Input86>
+  <Input87>
+    <Target>86</Target>
+    <Text>JIG Clean Vacuum Check</Text>
+    <Reverse>False</Reverse>
+  </Input87>
+  <Input88>
+    <Target>87</Target>
+    <Text>VCM Clamp Clamp</Text>
+    <Reverse>False</Reverse>
+  </Input88>
+  <Input89>
+    <Target>88</Target>
+    <Text>VCM Clamp UnClamp</Text>
+    <Reverse>False</Reverse>
+  </Input89>
+  <Input90>
+    <Target>89</Target>
+    <Text>Actuator #1 Ready</Text>
+    <Reverse>False</Reverse>
+  </Input90>
+  <Input91>
+    <Target>90</Target>
+    <Text>Actuator #1 Pass</Text>
+    <Reverse>False</Reverse>
+  </Input91>
+  <Input92>
+    <Target>91</Target>
+    <Text>Actuator #1 Fail</Text>
+    <Reverse>False</Reverse>
+  </Input92>
+  <Input93>
+    <Target>92</Target>
+    <Text>Actuator #1 AF Fail</Text>
+    <Reverse>False</Reverse>
+  </Input93>
+  <Input94>
+    <Target>93</Target>
+    <Text>Actuator #1 OIS Fail</Text>
+    <Reverse>False</Reverse>
+  </Input94>
+  <Input95>
+    <Target>94</Target>
+    <Text>Lens Push Unit Up</Text>
+    <Reverse>False</Reverse>
+  </Input95>
+  <Input96>
+    <Target>95</Target>
+    <Text>Actuator #2 Ready</Text>
+    <Reverse>False</Reverse>
+  </Input96>
+  <Input97>
+    <Target>96</Target>
+    <Text>Actuator #2 Pass</Text>
+    <Reverse>False</Reverse>
+  </Input97>
+  <Input98>
+    <Target>97</Target>
+    <Text>Actuator #2 Fail</Text>
+    <Reverse>False</Reverse>
+  </Input98>
+  <Input99>
+    <Target>98</Target>
+    <Text>Actuator #2 AF Fail</Text>
+    <Reverse>False</Reverse>
+  </Input99>
+  <Input100>
+    <Target>99</Target>
+    <Text>Actuator #2 OIS Fail</Text>
+    <Reverse>False</Reverse>
+  </Input100>
+  <Input101>
+    <Target>100</Target>
+    <Text>Actuator #3 POGO Forward</Text>
+    <Reverse>False</Reverse>
+  </Input101>
+  <Input102>
+    <Target>101</Target>
+    <Text>Actuator #3 POGO Backward</Text>
+    <Reverse>False</Reverse>
+  </Input102>
+  <Input103>
+    <Target>102</Target>
+    <Text>Actuator #3 Ready</Text>
+    <Reverse>False</Reverse>
+  </Input103>
+  <Input104>
+    <Target>103</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input104>
+  <Input105>
+    <Target>104</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input105>
+  <Input106>
+    <Target>105</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input106>
+  <Input107>
+    <Target>106</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input107>
+  <Input108>
+    <Target>107</Target>
+    <Text>Actuator #3 Pass</Text>
+    <Reverse>False</Reverse>
+  </Input108>
+  <Input109>
+    <Target>108</Target>
+    <Text>Actuator #3 Fail</Text>
+    <Reverse>False</Reverse>
+  </Input109>
+  <Input110>
+    <Target>109</Target>
+    <Text>Actuator #3 AF Fail</Text>
+    <Reverse>False</Reverse>
+  </Input110>
+  <Input111>
+    <Target>110</Target>
+    <Text>Actuator #3 OIS Fail</Text>
+    <Reverse>False</Reverse>
+  </Input111>
+  <Input112>
+    <Target>111</Target>
+    <Text>UvClmpeUp 2</Text>
+    <Reverse>False</Reverse>
+  </Input112>
+  <Input113>
+    <Target>112</Target>
+    <Text>UV ClmpeDown2</Text>
+    <Reverse>False</Reverse>
+  </Input113>
+  <Input114>
+    <Target>113</Target>
+    <Text>VCM Loading</Text>
+    <Reverse>False</Reverse>
+  </Input114>
+  <Input115>
+    <Target>114</Target>
+    <Text>Lens Height Check</Text>
+    <Reverse>False</Reverse>
+  </Input115>
+  <Input116>
+    <Target>115</Target>
+    <Text>Curing #1</Text>
+    <Reverse>False</Reverse>
+  </Input116>
+  <Input117>
+    <Target>116</Target>
+    <Text>Curing #2</Text>
+    <Reverse>False</Reverse>
+  </Input117>
+  <Input118>
+    <Target>117</Target>
+    <Text>VCM Unloading</Text>
+    <Reverse>False</Reverse>
+  </Input118>
+  <Input119>
+    <Target>118</Target>
+    <Text>Front Door1 State</Text>
+    <Reverse>False</Reverse>
+  </Input119>
+  <Input120>
+    <Target>119</Target>
+    <Text>Front Door 2 State</Text>
+    <Reverse>False</Reverse>
+  </Input120>
+  <Input121>
+    <Target>120</Target>
+    <Text>Lesft Side Door 3 State</Text>
+    <Reverse>False</Reverse>
+  </Input121>
+  <Input122>
+    <Target>121</Target>
+    <Text>Left Side Door 4 State</Text>
+    <Reverse>False</Reverse>
+  </Input122>
+  <Input123>
+    <Target>122</Target>
+    <Text>Right Side Door 5 State</Text>
+    <Reverse>False</Reverse>
+  </Input123>
+  <Input124>
+    <Target>123</Target>
+    <Text>Right Side Door 6 State</Text>
+    <Reverse>False</Reverse>
+  </Input124>
+  <Input125>
+    <Target>124</Target>
+    <Text>Rear Door 7 State</Text>
+    <Reverse>False</Reverse>
+  </Input125>
+  <Input126>
+    <Target>125</Target>
+    <Text>Rear Door 8 State</Text>
+    <Reverse>False</Reverse>
+  </Input126>
+  <Input127>
+    <Target>126</Target>
+    <Text>Main Air Sensor</Text>
+    <Reverse>True</Reverse>
+  </Input127>
+  <Input128>
+    <Target>127</Target>
+    <Text />
+    <Reverse>False</Reverse>
+  </Input128>
+  <Output1>
+    <Target>0</Target>
+    <Text>Start Switch Lamp</Text>
+  </Output1>
+  <Output2>
+    <Target>1</Target>
+    <Text>Stop Switch Lamp</Text>
+  </Output2>
+  <Output3>
+    <Target>2</Target>
+    <Text>OK Switch Lamp</Text>
+  </Output3>
+  <Output4>
+    <Target>3</Target>
+    <Text>Home Switch Lamp</Text>
+  </Output4>
+  <Output5>
+    <Target>4</Target>
+    <Text>Tower Lamp Red</Text>
+  </Output5>
+  <Output6>
+    <Target>5</Target>
+    <Text>Tower Lamp Yellow</Text>
+  </Output6>
+  <Output7>
+    <Target>6</Target>
+    <Text>Tower Lamp Green</Text>
+  </Output7>
+  <Output8>
+    <Target>7</Target>
+    <Text>Tower Lamp Buzzer</Text>
+  </Output8>
+  <Output9>
+    <Target>8</Target>
+    <Text>VCM Loading Vacuum</Text>
+  </Output9>
+  <Output10>
+    <Target>9</Target>
+    <Text>VCM Loading Blow</Text>
+  </Output10>
+  <Output11>
+    <Target>10</Target>
+    <Text>VCM Unloading Vacuum</Text>
+  </Output11>
+  <Output12>
+    <Target>11</Target>
+    <Text>VCM Unloading Blow</Text>
+  </Output12>
+  <Output13>
+    <Target>12</Target>
+    <Text>Lens Insert Vacuum</Text>
+  </Output13>
+  <Output14>
+    <Target>13</Target>
+    <Text>Lens Insert Blow</Text>
+  </Output14>
+  <Output15>
+    <Target>14</Target>
+    <Text>Transfer Loading Tray Clamp</Text>
+  </Output15>
+  <Output16>
+    <Target>15</Target>
+    <Text>Transfer Unloading Tray Clamp</Text>
+  </Output16>
+  <Output17>
+    <Target>16</Target>
+    <Text>Transfer Lens Tray Clamp</Text>
+  </Output17>
+  <Output18>
+    <Target>17</Target>
+    <Text>Stage VCM Loading Tray Clamp</Text>
+  </Output18>
+  <Output19>
+    <Target>18</Target>
+    <Text>Stage Lens Loading Tray Clamp</Text>
+  </Output19>
+  <Output20>
+    <Target>19</Target>
+    <Text>Stage VCM Unloading Tray Clamp</Text>
+  </Output20>
+  <Output21>
+    <Target>20</Target>
+    <Text>Side Angle Measure Unloading Vacuum</Text>
+  </Output21>
+  <Output22>
+    <Target>21</Target>
+    <Text>Side Angle Measure Unloading Blow</Text>
+  </Output22>
+  <Output23>
+    <Target>22</Target>
+    <Text>Side Angle Measure Unloading Move FW/BW</Text>
+  </Output23>
+  <Output24>
+    <Target>23</Target>
+    <Text>Side Angle Measure Unloading Move UP/DOWN</Text>
+  </Output24>
+  <Output25>
+    <Target>24</Target>
+    <Text>Side Angle Measure Unloading Clamp</Text>
+  </Output25>
+  <Output26>
+    <Target>25</Target>
+    <Text>Side Angle Measure Unloading Contact</Text>
+  </Output26>
+  <Output27>
+    <Target>26</Target>
+    <Text>Actuator #3 A Start</Text>
+  </Output27>
+  <Output28>
+    <Target>27</Target>
+    <Text>Actuator #3 B Start</Text>
+  </Output28>
+  <Output29>
+    <Target>28</Target>
+    <Text>Actuator #3 Spare 1</Text>
+  </Output29>
+  <Output30>
+    <Target>29</Target>
+    <Text>Actuator #3 Spare 2</Text>
+  </Output30>
+  <Output31>
+    <Target>30</Target>
+    <Text>Actuator #3 Spare 3</Text>
+  </Output31>
+  <Output32>
+    <Target>31</Target>
+    <Text>Bonding Head #1 Nozzle Clean Cylinder 1 IN/OUT</Text>
+  </Output32>
+  <Output33>
+    <Target>32</Target>
+    <Text>Bonding Head #1 Nozzle Clean Cylinder 2 IN/OUT</Text>
+  </Output33>
+  <Output34>
+    <Target>33</Target>
+    <Text>Dispensor 1 Jetting</Text>
+  </Output34>
+  <Output35>
+    <Target>34</Target>
+    <Text>Dispensor 2 Jetting</Text>
+  </Output35>
+  <Output36>
+    <Target>35</Target>
+    <Text>UV Clamp Up/Down</Text>
+  </Output36>
+  <Output37>
+    <Target>36</Target>
+    <Text>UV Contact</Text>
+  </Output37>
+  <Output38>
+    <Target>37</Target>
+    <Text>UV #1 Start</Text>
+  </Output38>
+  <Output39>
+    <Target>38</Target>
+    <Text>UV #1 Lamp On</Text>
+  </Output39>
+  <Output40>
+    <Target>39</Target>
+    <Text>U V Clampe Up Down2</Text>
+  </Output40>
+  <Output41>
+    <Target>40</Target>
+    <Text>UV #2 Start</Text>
+  </Output41>
+  <Output42>
+    <Target>41</Target>
+    <Text>UV #2 Lamp On</Text>
+  </Output42>
+  <Output43>
+    <Target>42</Target>
+    <Text />
+  </Output43>
+  <Output44>
+    <Target>43</Target>
+    <Text>JIG Clean Up/Down</Text>
+  </Output44>
+  <Output45>
+    <Target>44</Target>
+    <Text>JIG Clean Vacuum</Text>
+  </Output45>
+  <Output46>
+    <Target>45</Target>
+    <Text />
+  </Output46>
+  <Output47>
+    <Target>46</Target>
+    <Text>Lens Height Measure</Text>
+  </Output47>
+  <Output48>
+    <Target>47</Target>
+    <Text>JIG Clean Air Blow</Text>
+  </Output48>
+  <Output49>
+    <Target>48</Target>
+    <Text>VCM Clamp</Text>
+  </Output49>
+  <Output50>
+    <Target>49</Target>
+    <Text>Actuator #1 A Start</Text>
+  </Output50>
+  <Output51>
+    <Target>50</Target>
+    <Text>Actuator #1 B Start</Text>
+  </Output51>
+  <Output52>
+    <Target>51</Target>
+    <Text>Actuator #1 Spare 1</Text>
+  </Output52>
+  <Output53>
+    <Target>52</Target>
+    <Text>Actuator #1 Spare 2</Text>
+  </Output53>
+  <Output54>
+    <Target>53</Target>
+    <Text>Actuator #1 Spare 3</Text>
+  </Output54>
+  <Output55>
+    <Target>54</Target>
+    <Text>Actuator #2 A Start</Text>
+  </Output55>
+  <Output56>
+    <Target>55</Target>
+    <Text>Actuator #2 B Start</Text>
+  </Output56>
+  <Output57>
+    <Target>56</Target>
+    <Text>Actuator #2 Spare 1</Text>
+  </Output57>
+  <Output58>
+    <Target>57</Target>
+    <Text>Actuator #2 Spare 2</Text>
+  </Output58>
+  <Output59>
+    <Target>58</Target>
+    <Text>Actuator #2 Spare 3</Text>
+  </Output59>
+  <Output60>
+    <Target>59</Target>
+    <Text />
+  </Output60>
+  <Output61>
+    <Target>60</Target>
+    <Text>TJV #1 Coolling</Text>
+  </Output61>
+  <Output62>
+    <Target>61</Target>
+    <Text>Actuator #3 POGO Move FW/BW</Text>
+  </Output62>
+  <Output63>
+    <Target>62</Target>
+    <Text>TJV #2 Coolling </Text>
+  </Output63>
+  <Output64>
+    <Target>63</Target>
+    <Text>Light</Text>
+  </Output64>
+</Digital>

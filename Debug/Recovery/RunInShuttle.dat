@@ -1,0 +1,8 @@
+ReceiveGlassFinish,False
+CheckVisionFinish,False
+AlignFinish,False
+UnloadReady,False
+Glass1 Status,0
+Glass2 Status,0
+Glass3 Status,0
+Glass4 Status,0
