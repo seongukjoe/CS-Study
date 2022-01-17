@@ -1,67 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T02:49:35.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WYkL9Fdsnqp8iv1j5kYg" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T04:25:08.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="wawsBNBgFKvHxVVeqYr0" version="16.2.7" type="github">
   <diagram id="cW4heHkNbjZwzd7OfavZ" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-43" value="CLASS CMDT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="40" y="360" width="180" height="260" as="geometry" />
+        <mxCell id="leitCbYO_qNQhUtY8Vko-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;CData&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-44" value="CData m_Data    &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="26" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-45" value="CProcess_Control  m_Process" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="52" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-46" value="CDevice m_Device" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="78" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-47" value="CReport  m_Report" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="104" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-48" value="CAlarm  m_Alarm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="130" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-49" value="Form_Main  m_MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="156" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-50" value="CScript  m_Script" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="182" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-51" value="COC_Func[]  m_OC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="208" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1ICslruDGQ1CLvAG61Wo-52" value="CPLC  m_PLC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ICslruDGQ1CLvAG61Wo-43" vertex="1">
-          <mxGeometry y="234" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;CData&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="290" y="360" width="190" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-2" value="CLASS CMDT" style="swimlane;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="210" height="320" as="geometry">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-2" value="CLASS CMDT" style="swimlane;strokeColor=#000000;fillColor=none;fontSize=15;fontColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="210" height="390" as="geometry">
             <mxRectangle x="40" y="30" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-3" value="&amp;nbsp;CDATA&amp;nbsp; m_Data" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-3" value="&amp;nbsp;CDATA&amp;nbsp; m_Data" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="30" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-4" value="CProcess_Control&amp;nbsp; m_Process" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-4" value="CProcess_Control&amp;nbsp; m_Process" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="70" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-5" value="CDevice&amp;nbsp; m_Device" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-5" value="CDevice&amp;nbsp; m_Device" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="110" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-6" value="CReport&amp;nbsp; m_Report" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-6" value="CReport&amp;nbsp; m_Report" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="150" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-7" value="" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-7" value="CAlarm&amp;nbsp; m_Alarm" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="190" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-8" value="&amp;nbsp;CDATA&amp;nbsp; m_Data" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-8" value="Form_Main&amp;nbsp; m_MainForm" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="230" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="leitCbYO_qNQhUtY8Vko-9" value="&amp;nbsp;CDATA&amp;nbsp; m_Data" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+        <mxCell id="leitCbYO_qNQhUtY8Vko-9" value="CScript&amp;nbsp; m_Script" style="html=1;strokeColor=#000000;fillColor=none;" parent="leitCbYO_qNQhUtY8Vko-2" vertex="1">
           <mxGeometry x="10" y="270" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="julVfXj3HMdPOLNA7NU1-2" value="CPLC&amp;nbsp; m_PLC" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="leitCbYO_qNQhUtY8Vko-2">
+          <mxGeometry x="10" y="350" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="julVfXj3HMdPOLNA7NU1-1" value="COC_Func[]&amp;nbsp; m_OC" style="html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
