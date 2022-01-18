@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T08:02:33.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="wGcSa_SuXMv6S04KOxrU" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-18T08:30:09.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="rTPuVhplUUzWfhR40U_M" version="16.2.7" type="github" pages="6">
   <diagram id="cW4heHkNbjZwzd7OfavZ" name="Class Diagram Overview">
-    <mxGraphModel dx="1478" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2462" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LX-2YekuWjzB99xxAfqn" name="DesignPattern - Bridge">
-    <mxGraphModel dx="1426" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HaZTxAiIh3t54PS1NJjv-0" />
         <mxCell id="HaZTxAiIh3t54PS1NJjv-1" parent="HaZTxAiIh3t54PS1NJjv-0" />
@@ -272,12 +272,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FPcC78yKemF1-ps8gv0U" name="Class Diagram - Structure Analysis">
-    <mxGraphModel dx="1557" dy="3085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2180" dy="2214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tE5fXUTacuHh5lSKtkaJ-0" />
         <mxCell id="tE5fXUTacuHh5lSKtkaJ-1" parent="tE5fXUTacuHh5lSKtkaJ-0" />
         <mxCell id="iMbOSdRidq7jOvm30Z0m-0" value="STRUCTURE ANALYSIS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=50;fontColor=#FFA114;fontStyle=1" parent="tE5fXUTacuHh5lSKtkaJ-1" vertex="1">
-          <mxGeometry x="20" y="-1250" width="580" height="70" as="geometry" />
+          <mxGeometry x="20" y="-1130" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0lTwCXrvYhAY1CUhreU6-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IOC_Flow&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ string Compensation()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ string Verify()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="tE5fXUTacuHh5lSKtkaJ-1">
           <mxGeometry x="637" y="-910" width="190" height="110" as="geometry" />
@@ -305,7 +305,7 @@
           <mxGeometry x="80" y="-1070" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="d4zObYUsSDfZlW09PSWf-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;COC_Func&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- stRobotTest&amp;nbsp; m_stRobotTest = new stRobotTest()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_OCCal m_OCCal = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_OCGRR&amp;nbsp; m_GRR = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_Flow&amp;nbsp; m_Flow = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_EEGRR&amp;nbsp; m_EEGRR = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_OPTIC_MEASURE&amp;nbsp; m_OpticMeasure = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- COC_IRT_MEASURE&amp;nbsp; m_IRTMeasure = null&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- DBV_Band(NUM) &amp;lt;- Value&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;COC_Func(int iChannelNo) :&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; m_iChannelNo = iChannelNO&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; m_Flow = new COC_Flow(iChannelNo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; m_GRR = new COC_OCGRR(iChannelNo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; m_OCCal = new COC_EEGRR(iChannelNo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; m_OpticMeasure = new COC_OPTIC_MEASURE(iChannelNo)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; m_IRTMeasure = new COC_IRT_MEASURE(iChannelNo)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;--------------------------------------------------------------&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;Class Definition&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;COC_Flow&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;COC_OCGRR&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;COC_EEGRR&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;COC_OPTIC_MEASURE&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;COC_IRT_MEASURE&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="tE5fXUTacuHh5lSKtkaJ-1">
-          <mxGeometry x="159" y="-550" width="391" height="410" as="geometry" />
+          <mxGeometry x="159" y="-584" width="391" height="410" as="geometry" />
         </mxCell>
         <mxCell id="d5BQU-_RFLiFu60iajjc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;fontColor=#FF4912;startArrow=diamondThin;startFill=0;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="tE5fXUTacuHh5lSKtkaJ-1" source="u8eWh0cGsi1n5vng0jZW-0" target="d5BQU-_RFLiFu60iajjc-0">
           <mxGeometry relative="1" as="geometry">
@@ -347,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-HpRCA4dFB2dJXZ9pB2U" name="SETUP ">
-    <mxGraphModel dx="927" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="02TBnhXh1ejeHQCG0hql-0" />
         <mxCell id="02TBnhXh1ejeHQCG0hql-1" parent="02TBnhXh1ejeHQCG0hql-0" />
@@ -361,7 +361,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AuSk5a6cViBSgnVBB0bP" name="Program Sequency">
-    <mxGraphModel dx="2253" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3342" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6loZZVnKoiJexBd50b5f-0" />
         <mxCell id="6loZZVnKoiJexBd50b5f-1" parent="6loZZVnKoiJexBd50b5f-0" />
