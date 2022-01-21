@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T04:18:02.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Gr6KtYfDcEcxaMSlNLl4" version="16.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-21T04:19:45.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="M_jl2EG6yNz853h1SgWu" version="16.4.2" type="github" pages="2">
   <diagram id="HL45qFscqZGiarDgAbi_" name="Theory">
-    <mxGraphModel dx="2462" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3163" dy="1289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,8 +406,8 @@
         <mxCell id="bR0jpzT9Jt4JJCWM8a-q-150" value="PROS AND CONS" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#FFBA19;" parent="1" vertex="1">
           <mxGeometry x="460" y="1310" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bR0jpzT9Jt4JJCWM8a-q-151" value="Pros: 특정 부분 빠른 처리 속도&lt;br&gt;Cons: 주변과 Target의 대조가 클 수록 좋음" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;spacingTop=4;spacing=9;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1340" width="320" height="60" as="geometry" />
+        <mxCell id="bR0jpzT9Jt4JJCWM8a-q-151" value="Pros: 특정 부분 빠른 처리 속도&lt;br&gt;Cons: 주변과 Target의 대조가 클 수록 좋음, 광학 환경에 민감&lt;br&gt;&lt;br&gt;Algorithm 적용 방식 변환, Parameter 추가 등으로 성능 향상 기대" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;spacingTop=4;spacing=9;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1340" width="460" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -446,6 +446,9 @@
         </mxCell>
         <mxCell id="UMKXJaYjTEuQwxoSDQ7m-3" value="Target으로 잡은 이미지의 넓이 searching을 통해&lt;br&gt;가장 큰 size의 Area를 반환, 이를 도포된 위치, 크기임을 명시" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;fontStyle=1" vertex="1" parent="kR3yikUAP8Tvdirc9NR2-1">
           <mxGeometry x="690" y="1000" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_qXbfwKZW72oOb7Das4w-0" value="Blob Detection Algorithm" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#FFBA19;" vertex="1" parent="kR3yikUAP8Tvdirc9NR2-1">
+          <mxGeometry x="230" y="800" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
